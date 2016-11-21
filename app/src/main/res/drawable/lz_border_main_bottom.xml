@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 连框颜色值 -->
+    <item>
+        <shape>
+            <solid android:color="@color/cutoff_line" />
+        </shape>
+    </item>
+    <!-- 主体背景颜色值 -->
+    <item android:bottom="@dimen/px1">
+        <shape>
+            <solid android:color="@color/main" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,19 @@
+int anim focus_animation 0x7f030000
+int anim indicator_animation 0x7f030001
+int attr cpv_focusDrawable 0x7f010000
+int attr cpv_indicatorDrawable 0x7f010001
+int attr rpb_backgroundColor 0x7f010002
+int attr rpb_cancelColor 0x7f010004
+int attr rpb_runningColor 0x7f010003
+int attr rpb_timeLength 0x7f010005
+int dimen camera_focus_area_size 0x7f040000
+int drawable ms_smallvideo_icon 0x7f020000
+int drawable ms_video_focus_icon 0x7f020001
+int[] styleable CameraPreviewView { 0x7f010000, 0x7f010001 }
+int styleable CameraPreviewView_cpv_focusDrawable 0
+int styleable CameraPreviewView_cpv_indicatorDrawable 1
+int[] styleable RecordProgressBar { 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005 }
+int styleable RecordProgressBar_rpb_backgroundColor 0
+int styleable RecordProgressBar_rpb_cancelColor 2
+int styleable RecordProgressBar_rpb_runningColor 1
+int styleable RecordProgressBar_rpb_timeLength 3

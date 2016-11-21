@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 连框颜色值 -->
+    <item>
+        <shape>
+            <solid android:color="@color/m_main_color" />
+        </shape>
+    </item>
+    <!-- 主体背景颜色值 -->
+    <item android:bottom="@dimen/px_4">
+        <shape>
+            <solid android:color="@color/m_topbg" />
+        </shape>
+    </item>
+</layer-list>

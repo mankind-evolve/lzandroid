@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="WBlogin_SocialSDK_Sina">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/WBlogin_SocialSDK_Sina.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

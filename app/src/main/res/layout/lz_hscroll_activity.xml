@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/m_main_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <include layout="@layout/lz_common_head"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:background="@color/m_white">
+
+        <com.lazy.android.baseui.common.mHorizontalScrollView
+            android:id="@+id/buy_horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </com.lazy.android.baseui.common.mHorizontalScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/px_400"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/hscroll_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lz_hscroll_a"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

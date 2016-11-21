@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 上拉加载,下拉更多自定义控件的头 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/pull_to_refresh_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/blue_09aaa5"
+        android:text="@string/pull_to_refresh_pull_header_label"
+        android:textSize="@dimen/px_20"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/pull_to_refresh_progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/pull_to_refresh_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp" />
+
+</RelativeLayout>

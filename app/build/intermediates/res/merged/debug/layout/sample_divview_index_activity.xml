@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/lz_common_head"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/SlidingMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="SlidingMenu"/>
+
+        <TextView
+            android:id="@+id/circleimageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="circleimageview"/>
+
+
+        <TextView
+            android:id="@+id/activity_button_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="底部弹出布局"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:id="@+id/netlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="网络请求列表页"/>
+
+        <TextView
+            android:id="@+id/netlistwithswipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="网络请求列表页(swipeMenuListView)"/>
+
+
+        <TextView
+            android:id="@+id/HorizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="横向滚动相册"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/timepick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="时间拾取器"/>
+
+        <TextView
+            android:id="@+id/citypick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="城市选择器"/>
+
+
+        <TextView
+            android:id="@+id/listpick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="列表选择器(单选)"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/citylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="城市选择页面"/>
+
+
+        <TextView
+            android:id="@+id/timelist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="时间横向滚动"/>
+
+        <TextView
+            android:id="@+id/addressbook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="通讯录页面"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:paddingBottom="@dimen/px_20"
+        android:background="@drawable/lz_line_bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/timepicker_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="时间选择"/>
+
+
+        <TextView
+            android:id="@+id/timepicker_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="日期选择"/>
+
+
+        <TextView
+            android:id="@+id/timepicker_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="详细选择"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:paddingBottom="@dimen/px_20"
+        android:background="@drawable/lz_line_bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dialog_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="自定义dialog"/>
+
+        <TextView
+            android:id="@+id/sexpick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="选择拾取器"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:paddingBottom="@dimen/px_20"
+        android:background="@drawable/lz_line_bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/orderlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="订单列表"/>
+
+        <TextView
+            android:id="@+id/listspick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="列表选择器(多选)"/>
+
+        <TextView
+            android:id="@+id/baidulocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="定位所在城市5秒"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:background="@drawable/lz_line_bottom"
+        android:paddingBottom="@dimen/px_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/indexdemo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px_90"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button"
+            android:text="首页demo"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

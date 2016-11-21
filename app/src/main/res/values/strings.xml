@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">lzandroid</string>
+    <string name="version">1.0.0</string>
+    <string name="sd_error">读取SD卡失败.请检查SD卡是否安装</string>
+    <string name="mail_failed">打开邮箱失败</string>
+    <string name="connect_timeout">客官，你的网路不给力！</string>
+    <string name="download_fail_text">下载失败！</string>
+    <string name="apk_download">正在下载</string>
+    <string name="apk_downloading">正在下载...</string>
+    <string name="apk_download_finished">下载完成</string>
+    <string name="update_alert_text">应用升级提示</string>
+    <string name="update_description_text">最新的版本是否更新 ?</string>
+    <string name="ok">ok ?</string>
+    <string name="please_select">please_select</string>
+
+
+    <!-- 上拉加载,下拉更多自定义控件的头或脚 -->
+    <string name="pull_to_refresh_pull_header_label">下拉刷新</string>
+    <string name="pull_to_refresh_pull_footer_label">上拉加载</string>
+    <string name="pull_to_refresh_release_header_label">松开立即刷新</string>
+    <string name="pull_to_refresh_release_footer_label">松开立即刷新</string>
+    <string name="pull_to_refresh_refreshing_header_label">努力加载中</string>
+    <string name="pull_to_refresh_refreshing_footer_label">努力加载中</string>
+    <string name="pull_to_refresh_sub_header_label">没有更多数据了…</string>
+    <string name="pull_to_refresh_sub_footer_label">已经到底啦~  </string>
+
+
+    <!--城市选择开始-->
+    <string name="select_city">选择城市</string>
+    <string name="hot_city">热门城市</string>
+    <string name="located_city">定位城市</string>
+    <string name="hint_search_box">请输入城市名或拼音</string>
+    <string name="nothing_found">没有搜索结果~</string>
+    <string name="locating">正在定位…</string>
+    <string name="located_failed">定位失败</string>
+
+</resources>

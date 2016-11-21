@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/chenglei/android代码/xiaobaiyangchong/WXLikeVideoRecorderLib/build/intermediates/res/merged/androidTest/debug/anim/indicator_animation.xml",
+        "source": "/Users/chenglei/android代码/xiaobaiyangchong/WXLikeVideoRecorderLib/build/intermediates/bundles/debug/res/anim/indicator_animation.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/xiaobaiyangchong/WXLikeVideoRecorderLib/build/intermediates/res/merged/androidTest/debug/anim/focus_animation.xml",
+        "source": "/Users/chenglei/android代码/xiaobaiyangchong/WXLikeVideoRecorderLib/build/intermediates/bundles/debug/res/anim/focus_animation.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/xiaobaiyangchong/libproduct/WXLikeVideoRecorderLib/build/intermediates/res/merged/androidTest/debug/anim/focus_animation.xml",
+        "source": "/Users/chenglei/android代码/xiaobaiyangchong/libproduct/WXLikeVideoRecorderLib/build/intermediates/bundles/debug/res/anim/focus_animation.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/xiaobaiyangchong/libproduct/WXLikeVideoRecorderLib/build/intermediates/res/merged/androidTest/debug/anim/indicator_animation.xml",
+        "source": "/Users/chenglei/android代码/xiaobaiyangchong/libproduct/WXLikeVideoRecorderLib/build/intermediates/bundles/debug/res/anim/indicator_animation.xml"
+    }
+]

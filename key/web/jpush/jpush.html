@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0038)file:///Users/chenglei/Desktop/js.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+  
+<meta http-equiv="Expires" content="0">  
+<meta http-equiv="Pragma" content="no-cache">  
+<meta http-equiv="Cache-Control" content="no-store,no-cache">   
+<meta name="Handheldfriendly" content="true">  
+<meta name="viewport" content="width=100%; initial-scale=1.0; user-scalable=yes">  
+<meta name="robots" content="all">  
+  
+
+  
+<title>JPUSH demo</title>  
+	<!-- Loading Bootstrap -->
+    <link href="http://cdn.bootcss.com/twitter-bootstrap/2.2.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="http://app.zhuli6.com/lzAndroid/flat-ui.css" rel="stylesheet">
+    	
+	<!--引入jq-->
+    	<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  
+<script type="text/javascript" language="javascript">   
+    function idpush(id){
+    		alert("推送id=" + id);
+    		$.ajax({ url: "http://app.zhuli6.com/lzAndroid/jpush/jpush.php?type=1&key="+ id,success: function(){
+       	 	alert("根据id推送成功");
+      	}});
+    }
+  	
+  	function namepush(name){
+  		alert("推送别名=" + name);
+  		$.ajax({ url: "http://app.zhuli6.com/lzAndroid/jpush/jpush.php?type=2&key="+ name,success: function(){
+       	 	alert("根据别名推送成功");
+      	}});
+  		
+  	}
+  	
+  	function tagpush(tag){
+  		alert("推送tag=" + tag);
+  		$.ajax({ url: "http://app.zhuli6.com/lzAndroid/jpush/jpush.php?type=3&key="+ tag,success: function(){
+       	 	alert("根据TAG推送成功");
+      	}});
+  	}
+  	
+</script>  
+</head>  
+  
+  
+<body>  
+	<div>
+	<div style="width: 100%; "><h3 class="demo-panel-title"><center>界面基于Bootstrap搭建</center></h3> </div>
+	<div style="width: 100%; "><h4 class="demo-panel-title"><center>
+		<a href="http://app.zhuli6.com/lzAndroid/jpush/jpush.html">http://app.zhuli6.com/lzAndroid/jpush/jpush.html</a>
+	</center></h4> </div>
+	
+	
+	
+<div style="width: 100%;"> 
+<center><a onclick="window.native.pushbyid()" class="btn btn-large btn-block btn-info" style="width: 90%;">根据设备的ID发送推送信息</a></center>
+</div>
+
+<br>
+
+<div style="width: 100%;"> 
+<center><a onclick="window.native.pushbyname()" class="btn btn-large btn-block btn-info" style="width: 90%;">根据设备的别名发送推送信息</a></center>
+</div>
+
+<br>
+
+<div style="width: 100%;"> 
+<center><a onclick="window.native.pushbytag()" class="btn btn-large btn-block btn-info" style="width: 90%;">根据设备的TAG发送推送信息</a></center>
+</div>
+
+  
+  </div>
+  
+  </body></html>

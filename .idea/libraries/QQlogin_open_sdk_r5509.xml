@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="QQlogin_open_sdk_r5509">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/QQlogin_open_sdk_r5509.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

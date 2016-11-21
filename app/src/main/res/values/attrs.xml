@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 上拉加载,下拉更多自定义控件Base -->
+    <declare-styleable name="PullToRefresh">
+        <attr name="ptrMode">
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+            <flag name="both" value="0x3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="rounded_color" format="reference|color"></attr>
+        <attr name="rounded_height" format="dimension"></attr>
+    </declare-styleable>
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+
+    <!-- CustomImagView -->
+    <declare-styleable name="CustomImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="mutate_background" format="boolean" />
+        <attr name="oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="circle_image_border_width" format="dimension" />
+        <attr name="circle_image_border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="mHorizontalScrollViewattr">
+        <attr name="bgColor" format="color" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+</resources>

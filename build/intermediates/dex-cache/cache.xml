@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/httpmime-4.1.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/httpmime-4.1.2_6b80c32fe66c2e2390e73124cbee9d207953f030.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/baidumapapi_cloud_v4_0_0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e2aca735ca322917c5ee5fd40d663773391cf0a6">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/baidumapapi_cloud_v4_0_0_c7e65fa26d6d00410cd3424d21038a49c9a6a33a.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/umeng_social_sdk.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c4bb8895b0d9447a46921501e5b6c75afa26ca62">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/umeng_social_sdk_04daa3ac44cfe2dcdb81c569dd933a3570a3b297.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/org.xutils/xutils/3.3.8/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="73d788f94f283a9bdbfc0497cb28e33b42cbf2df">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/org.xutils-xutils-3.3.8_1870cb6b03d3710341b75d66edd21b3c7e5e113e.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_8dcf19caf2e98e7bbd07c663612c4160b0796474.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/baidumapapi_util_v4_0_0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1e9069435803e5a4f32dc429906def33a95aaf17">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/baidumapapi_util_v4_0_0_1e186f55ab4313706835c55e2f858ca01ea18465.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/WBlogin_SocialSDK_Sina.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ada8b8d7d1557f75a01bd1f7ec5e7738291cf2b1">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/WBlogin_SocialSDK_Sina_855827389f8d3f59336d8bcea55c119aadf67f63.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/alipaySdk-20160427.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="654cbff4ec71960a04fa8784648a41b96e1f9566">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/alipaySdk-20160427_63c5c9a84bbba41ba63f5c9ab70bd3f3eb97e017.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/com.squareup.leakcanary-leakcanary-android-1.3.1_6e9219713108ec32806ba4042686e60bbce89fb5.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_36b587ac38f67c64885e45dec143f9cb456a1620.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.3.0_c1b4872a90423f79be440c1d3f3970a82b5c29c8.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/QQlogin_mta-sdk-1.6.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/QQlogin_mta-sdk-1.6.2_e8d57f0863cc992654ef420822654a53271ff2ba.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/IndoorscapeAlbumPlugin.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2db8e46c4d11e86116c2b65bfd00ed86b7676ba0">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/IndoorscapeAlbumPlugin_8cb1727985e933d21c7fb923ce10ca122e546af3.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c74f0952cfb481882d8cedf4ca9f3c60289a3301">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/cn.finalteam-galleryfinal-1.4.8.7_6b94b04225d3906e26f9d77a71504e6536264a1a.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/com.astuetz-pagerslidingtabstrip-1.0.1_3bde078197968c9de38198d5b6582a81190401ae.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/baidumapapi_radar_v4_0_0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="81b00e6e2da11e12554d8cbf0acc23627fd1225b">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/baidumapapi_radar_v4_0_0_e188d225505c7d0d484c334b75c414dcfbac56b3.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/WBlogin_weiboSDKCore_3.1.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f3617ce51258bf3ec0fe2503e3c0a920040b1b53">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/WBlogin_weiboSDKCore_3.1.4_90dbf1bbe3ab8489d93276cab7c838ab55c7bf40.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/baidumapapi_locSDK_6.13.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/baidumapapi_locSDK_6.13_17d0d72fe98ac2b4b16f8965d194badee6e6927e.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/alipaySdk-20160427.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="654cbff4ec71960a04fa8784648a41b96e1f9566">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/alipaySdk-20160427_1d600ea944fce9301173af09544a4192ff4a730c.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/IndoorscapeAlbumPlugin.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2db8e46c4d11e86116c2b65bfd00ed86b7676ba0">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/IndoorscapeAlbumPlugin_74c521ae8c8c17b52d5bdfb8a2707f3da4106bfd.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/zxing.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6fe22c135f19470d05b0816d5996c442ef67da3f">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/zxing_e00347d5d93175ec3f2b624c9b968e3488037fe3.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/gson-2.3.1_cdcbb7f35e858435ebc9eb22683ed6540445db02.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/com.squareup.leakcanary-leakcanary-android-1.3.1_6245f9983ca351d75d1029ab3103a299cce33eec.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.3.0_d109efd98c485f0d85c80bc7de137194b681901f.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/QQlogin_SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6d046bb00be56dd658b1a815632b74a8ddb06266">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/QQlogin_SocialSDK_QQZone_3_e8e4c04bd8912a167cf6967ae53a47f35a19b821.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/companyCode/alib_WXLikeVideoRecorderLib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0ac671486586a3d58ebc08570ce8086036e2f4d7">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/companyCode-alib_WXLikeVideoRecorderLib-unspecified_b634069032f2c845760ef1ae0bfd4a4c6a1e85eb.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/QQlogin_open_sdk_r5509.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="538ea8fb21ea76e8cb424598ac38127cb3344d79">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/QQlogin_open_sdk_r5509_9cbf55d51c74aec7da4ef19b567b745faf86cb64.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/BASE64.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f80edc977b5165ff7c451e1c6b94de9f25d7e41f">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/BASE64_01279e351ee7df62cd3414e276dfb0bdba1657c8.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/SocialSDK_WeiXin_1_a0827f7cd3fa07c8801209223b8ce1da935b64f8.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.0.0_a45c9e999d4decd87e903c6850e5be4a274ab449.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/baidumapapi_search_v4_0_0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="08f97ee0e35fb17d405d29bf62eef305faffffcc">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/baidumapapi_search_v4_0_0_2eea1925440a3f251504a3048a1bb5794433e5ec.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/jpush-android-2.1.9.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99c80319fb45b23fbc516787fdd3cf8940fda4b2">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/jpush-android-2.1.9_f0e8c7a34f3421da16de4322e28d706b73a6eab9.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/1.3/d2c832f9d14a11c79f58a7ee2e10526a12152c72/haha-1.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d2c832f9d14a11c79f58a7ee2e10526a12152c72">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/haha-1.3_4bf402397648b419b0282c780b06a6fc84e8a445.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/companyCode/alib_slidingmenulibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="72d56b04c5e8bb74049bb4702891c5e42aa636da">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/companyCode-alib_slidingmenulibrary-unspecified_baca80a05989f37291f5e82b8ac43ecb47197048.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.jzxiang.pickerview/TimePickerDialog/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="32c0bf3a62b3f92a29e778953d1929c378aab264">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/com.jzxiang.pickerview-TimePickerDialog-1.0.1_d1d3e29ac08b8c868d514ebc0da34ae8c0d4dc32.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.5_dac77c2329e5ce308c227043eb6cbed10e101ceb.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/zxing.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6fe22c135f19470d05b0816d5996c442ef67da3f">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/zxing_eed3de6a70442040cdc51f0b97a6879f6fa16b12.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.3.0_b5994c5e9baceb88d7b4783df2983522080ecc55.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/httpmime-4.1.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/httpmime-4.1.2_09b48b25394485e65ab176248d36eefd4048e83a.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2e9029354d9b3b1a18964da663912827c193faeb">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/SocialSDK_WeiXin_2_51a5ac87cd7b3b264d2e7ea1a71b7f0189c338a7.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/baidumapapi_base_v4_0_0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="dc207932ddfb65566a157ca311a6a6dffc7fccab">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/baidumapapi_base_v4_0_0_7d68d4356d4eeec2ee26937a31905cf12f5db648.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/QQlogin_open_sdk_r5509.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="538ea8fb21ea76e8cb424598ac38127cb3344d79">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/QQlogin_open_sdk_r5509_6696c8fe961796a57720c66c95e3298f7ac44c65.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.yqritc/android-scalablevideoview/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c97dc8446f6a46da5620f40b3737e162d53c40c2">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/com.yqritc-android-scalablevideoview-1.0.1_04134d6a79ddff93da31661979a905bb61a24744.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/org.xutils/xutils/3.3.8/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="73d788f94f283a9bdbfc0497cb28e33b42cbf2df">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/org.xutils-xutils-3.3.8_7be2ecbbaa7adbb92044c9f71615fb0eeadeb329.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/cn.finalteam/toolsfinal/1.1.5/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="966da5b6a8bfdef0bfc660e349f8765dde5cb6f3">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/cn.finalteam-toolsfinal-1.1.5_5b8a3395e2a255120bce5be74fadf34d7e6ca5f7.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c74f0952cfb481882d8cedf4ca9f3c60289a3301">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/cn.finalteam-galleryfinal-1.4.8.7_ab45707272fb51c1cfbe70187b29e83c150222a0.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/com.astuetz-pagerslidingtabstrip-1.0.1_be75362a3c57720d825747ab63d0430046403936.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/companyCode/alib_WXLikeVideoRecorderLib/unspecified/jars/libs/javacpp.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="b4a81d27a13cda168e17cc8a07cef947365d5ed2">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/javacpp_64ac7d89fd450c3a59773c1e316c69438dce8078.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/baidumapapi_search_v4_0_0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="08f97ee0e35fb17d405d29bf62eef305faffffcc">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/baidumapapi_search_v4_0_0_2e0c689b7df1aeb81a58d1dc60c47be9ae742b7c.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2e9029354d9b3b1a18964da663912827c193faeb">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/SocialSDK_WeiXin_2_ab12f71aef1ef0b126e3d9df045e92b3cdfb37c6.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/baidumapapi_radar_v4_0_0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="81b00e6e2da11e12554d8cbf0acc23627fd1225b">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/baidumapapi_radar_v4_0_0_ba3222c5a7e2fa5b9f459daef4a8be5415056282.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/jars/libs/ffmpeg.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="dd0dcd1d40b190a6298a45e6529a412d1e9135ed">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/ffmpeg_eb87edcf165c6713797c09cf8d092e4a5b3b111f.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.3.0_5b2df429f656acb7d1ac46c9857b9ac320dece92.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.5_51ce8e28bd0bd099e8b08f63ff83a13284caf5ca.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/pinyin4j-2.5.0_47d22150b5de29a50309e5d7fccb3b51796df3f4.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/QQlogin_mta-sdk-1.6.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/QQlogin_mta-sdk-1.6.2_32b700dffccc015c8d6c61bd489b2472c111640f.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_b7feaa28b5a02d683f96c2bc9ae962ad2fdaed6b.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_slidingmenulibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d444dfac3d6f080f7b8ab49d826914fb9db73a9b">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/lzandroid-alib_slidingmenulibrary-unspecified_ac58609742746443ec2699eee53906abc0f10348.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_3f005e794370129923df59606c93d623e4ffcdf8.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/gson-2.3.1_eeb73b331343b89ea768081ae3604f8e4a6bd5e2.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/jpush-android-2.1.9.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99c80319fb45b23fbc516787fdd3cf8940fda4b2">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/jpush-android-2.1.9_d0beecfc216d689275d23e6d4295703017819d01.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/baidumapapi_map_v4_0_0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="db4a1025ee9c6f95747aab4a69baa1391534d80e">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/baidumapapi_map_v4_0_0_4874d6e8d06160391858506ce14f7a9d8744611c.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.baoyz.swipemenulistview/library/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/com.baoyz.swipemenulistview-library-1.3.0_acbbad4ff6521fe4ade3073d33955a70c1829703.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.3.1/6904771474c058abfc5912c13d12b02754712165/leakcanary-watcher-1.3.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6904771474c058abfc5912c13d12b02754712165">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/leakcanary-watcher-1.3.1_daa70cdb6eaf5624a9422cadabaca3198c9e84e7.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.3.0_cf417380b504e91607c8651186b6caa645bd4b0e.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/baidumapapi_cloud_v4_0_0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e2aca735ca322917c5ee5fd40d663773391cf0a6">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/baidumapapi_cloud_v4_0_0_b5c175de751c66e2b910cd525bfd05e33e613ab2.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/baidumapapi_base_v4_0_0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="dc207932ddfb65566a157ca311a6a6dffc7fccab">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/baidumapapi_base_v4_0_0_a734d33b6ddf7ba3a447b062f3fa58c5d111eb6d.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/baidumapapi_locSDK_6.13.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/baidumapapi_locSDK_6.13_4cc7a75ad695497731ef6906e1d115ec3e6b5f7a.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/umeng_social_sdk.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c4bb8895b0d9447a46921501e5b6c75afa26ca62">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/umeng_social_sdk_facf1c47bd059e12bc8802d379bea98ec9304aec.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.3.1/325e7401a7ea16918eb39ba8baad8fd5561a55d3/leakcanary-analyzer-1.3.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="325e7401a7ea16918eb39ba8baad8fd5561a55d3">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/leakcanary-analyzer-1.3.1_4380d2381ccb467fbac2e935522e2c01f8db1761.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/BASE64.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f80edc977b5165ff7c451e1c6b94de9f25d7e41f">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/BASE64_e52412356f21a684b37974a4be256550a88e8c8c.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/com.baoyz.swipemenulistview/library/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/com.baoyz.swipemenulistview-library-1.3.0_13e0e76e5dfc5e3b812c46533490148ea46889b8.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/com.yqritc/android-scalablevideoview/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c97dc8446f6a46da5620f40b3737e162d53c40c2">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/com.yqritc-android-scalablevideoview-1.0.1_2700191182783949180c79962e7103053e943f73.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/pinyin4j-2.5.0_e8cc3a58632c6a4e7299715926f526326306a17b.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="84448dda6ed9d915ff03f22b2e85c3a8caa4fd95">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/lzandroid-alib_WXLikeVideoRecorderLib-unspecified_3d3e8d65aaa8381c925928ed0968e575d4b42247.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/WBlogin_weiboSDKCore_3.1.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f3617ce51258bf3ec0fe2503e3c0a920040b1b53">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/WBlogin_weiboSDKCore_3.1.4_9ff142b28fea6e3fd1a8f294270c69f19abaaa52.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/com.jzxiang.pickerview/TimePickerDialog/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="32c0bf3a62b3f92a29e778953d1929c378aab264">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/com.jzxiang.pickerview-TimePickerDialog-1.0.1_b834856e9907dcc49e071aac8513eadcc8778df5.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/SocialSDK_WeiXin_1_2a51efa388b69a3d6942a1784f12668104ad9ddc.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/companyCode/alib_WXLikeVideoRecorderLib/unspecified/jars/libs/ffmpeg.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7d957be16afec22d03b6eb2585d92e0d8f2fdefa">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/ffmpeg_c1b7e8e4ee1b0c73b420cb9f4ece63b7fc65a965.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/toolsfinal/1.1.5/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="966da5b6a8bfdef0bfc660e349f8765dde5cb6f3">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/cn.finalteam-toolsfinal-1.1.5_866102c7307463324ca75951d9ca8f8300b90b8a.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/QQlogin_SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6d046bb00be56dd658b1a815632b74a8ddb06266">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/QQlogin_SocialSDK_QQZone_3_c3f8be69506414b52a6c5b560c810bdbd78b9067.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_cdb064bdc9601484be45cd013b5e010053022fc2.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.3.0_5f9c80d967a4d6b42e0b0a2352b56bf01c27989f.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/libs/baidumapapi_map_v4_0_0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="db4a1025ee9c6f95747aab4a69baa1391534d80e">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/baidumapapi_map_v4_0_0_7f23f9ed2b10e10d068d6553aaf7d1c7db7e83de.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.0.0_e499ea80a672c90719f8eeb7e41f8ecb549f46bc.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/jars/libs/javacpp.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="12458cedb3a0bbbbdbb3d946faaab513155bfd3a">
+        <dex dex="/Users/chenglei/android代码/lzandroid/app/build/intermediates/pre-dexed/debug/javacpp_ff7bfd46cc6d722d58c30a3098aeb15f02b49369.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/baidumapapi_util_v4_0_0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1e9069435803e5a4f32dc429906def33a95aaf17">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/baidumapapi_util_v4_0_0_512b10202d47e4e9b114b221d9cda891d6d554aa.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/.gradle/caches/modules-2/files-2.1/com.umeng.analytics/analytics/6.0.4/27238b0acdc4e764623a653d5776488783e9ae3f/analytics-6.0.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="27238b0acdc4e764623a653d5776488783e9ae3f">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/analytics-6.0.4_ad08a40f3184b3911f79804540a894d88a2b9fd1.jar" />
+    </item>
+    <item
+        jar="/Users/chenglei/小饭桌/companyCode/app/libs/WBlogin_SocialSDK_Sina.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ada8b8d7d1557f75a01bd1f7ec5e7738291cf2b1">
+        <dex dex="/Users/chenglei/小饭桌/companyCode/app/build/intermediates/pre-dexed/debug/WBlogin_SocialSDK_Sina_94f7bb1e0c25b5dac0a7c2c6fae573b450de6a49.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="m_white">#FFFFFF</color>
+    <color name="m_black">#130c0e</color>
+    <color name="m_green">#008000</color>
+
+    <!--主题背景色-->
+    <color name="m_main_bg">#ebebeb</color>
+    <!--主色调-->
+    <color name="m_main_color">#3dd9f2</color>
+    <!--主红色-->
+    <color name="m_main_red">#e01515</color>
+    <!--主蓝色-->
+    <color name="m_main_blue">#00aed0</color>
+    <!--头部背景颜色-->
+    <color name="m_topbg">#f7f7f7</color>
+    <!--底部背景颜色-->
+    <color name="m_footbg">#f7f7f7</color>
+    <!--分割线-->
+    <color name="m_cutline">#dddddd</color>
+    <!--提示文字颜色-->
+    <color name="m_edit_hint">#aaaaaa</color>
+    <!--提示文字颜色-->
+    <color name="m_text_hint">#666666</color>
+    <!--正文文字颜色-->
+    <color name="m_text_main">#333333</color>
+    <!--正文文字颜色黑色-->
+    <color name="m_text_blank">#000000</color>
+    <!--导航栏标题文字颜色-->
+    <color name="m_text_toptitle">#666666</color>
+    <!--底部按钮文字颜色-->
+    <color name="m_text_menucolor">#999999</color>
+</resources>

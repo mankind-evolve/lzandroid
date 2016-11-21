@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javacpp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/alib_WXLikeVideoRecorderLib/libs/javacpp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

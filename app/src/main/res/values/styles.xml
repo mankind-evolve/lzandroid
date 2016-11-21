@@ -1,0 +1,162 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 这个是自定义的启动Activity的界面 -->
+    <style name="AppLaucherTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <!--################################## LZ底部弹出dialog页面 ################################## -->
+    <!--页面-->
+    <style name="lz_activitydialog_buttonup" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/lz_AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!--动画-->
+    <style name="lz_AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/lz_go_up</item>
+        <item name="android:windowExitAnimation">@anim/lz_go_down</item>
+    </style>
+
+
+
+
+    <!--################################## LZ默认弹出dialog页面 ################################## -->
+    <!--页面-->
+    <style name="lz_activitydialog" parent="android:Theme.Dialog">
+        <!--<item name="android:windowAnimationStyle">@style/lz_AnimBottom</item>-->
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+
+
+
+    <!--################################## LZ 自定义的提醒对话框 ################################## -->
+    <style name="lz_CustomAlertDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/lz_custom_alert_dialog_bg_bak</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+
+
+
+    <!-- 自定义CustomDialog选项菜单的进出动画 -->
+    <style name="customDialog_anim_style">
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowEnterAnimation">@anim/custom_dialog_anim_show</item>
+        <!-- 指定消失的动画xml -->
+        <item name="android:windowExitAnimation">@anim/custom_dialog_anim_dismiss</item>
+    </style>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/customDialog_anim_style</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="Custom_dialog_style" parent="CustomDialog">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="custom_progressBar" parent="@android:style/Widget.ProgressBar.Small.Inverse">
+        <item name="android:layout_width">22dp</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:indeterminateDrawable">@anim/progressbar_loading</item>
+    </style>
+    <!-- 简单的自定义的对话框 -->
+    <style name="SimpleDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@drawable/lz_simpledialog_bg_bak</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <!--LZDialogDiy的样式-->
+    <style name="LZDialogDiy" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="lzrecorder_Dialog_loading_noDim" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 无边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 没有标题 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 背景是否半透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 背景是否模糊 -->
+    </style>
+
+
+    <style name="lzrecorder_Dialog_loading" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 无边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 没有标题 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 背景是否半透明 -->
+    </style>
+
+
+
+</resources>

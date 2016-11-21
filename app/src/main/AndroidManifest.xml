@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.lazy.android"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+
+    <!--开始闪光灯权限-->
+    <permission
+        android:name="android.permission.FLASHLIGHT"
+        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+        android:protectionLevel="normal"/>
+
+    <!--读取联系人权限-->
+    <permission
+        android:name="android.permission.READ_CONTACTS"
+        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+        android:protectionLevel="normal"/>
+
+    <!--修改联系人权限-->
+    <permission
+        android:name="android.permission.WRITE_CONTACTS"
+        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+        android:protectionLevel="normal"/>
+
+
+    <!--GPS定位权限-->
+    <permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+        android:protectionLevel="normal"/>
+
+
+
+
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false"/>
+
+
+    <!--获得通讯录的权限-->
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+        android:protectionLevel="normal"/>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        android:protectionLevel="signature"/>
+
+
+
+    <!--设置umeng需要的权限-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+
+
+    <!--拍照权限 -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <!--takephoto权限-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!--xutils的权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true"/>
+
+    <!--友盟的用户反馈的配置-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+    <!--视频录制权限-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+
+    <!--百度地图需要的权限开始-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <!--百度定位-->
+    <!-- 这个权限用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!-- 这个权限用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <!-- 用于读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 访问网络，网络定位需要上网-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- SD卡读取权限，用户写入离线定位数据-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <!--百度地图需要的权限结束-->
+
+
+    <!--极光推送需要的权限开始-->
+    <!-- Required -->
+    <permission
+        android:name="com.lazy.android.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature"/>
+
+    <!-- Required -->
+    <uses-permission android:name="com.lazy.android.permission.JPUSH_MESSAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <!-- Optional. Required for location feature -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+    <!--极光推送需要的权限结束-->
+    <application
+        android:name="com.lazy.android.application.LzandroidApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar">
+
+
+        <!--设置umeng的appkey-->
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5764c475e0f55acdc40027e7"></meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="APP"/>
+
+        <!--====================================sample模块页面开始====================================-->
+        <activity android:name=".z_sample.SampleIndexActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--xutils入口-->
+        <activity android:name=".z_sample.xutils.activity.SampleXutilsIndexActivity"/>
+        <!--umeng入口-->
+        <activity android:name=".z_sample.umeng.Activity.SampleUmengIndexActivity"/>
+        <!--极光入口-->
+        <activity android:name=".z_sample.jpush.JpushIndexActivity"/>
+        <!--android原生开发和html交互-->
+        <activity android:name=".z_sample.webview.LZHtmlActivity"/>
+        <!--需要设置internet权限-->
+        <!--<uses-permission android:name="android.permission.INTERNET" />-->
+        <!--视频录制入口-->
+        <!--自定义视图界面-->
+        <activity android:name=".z_sample.divview.DivviewIndexActivity"/>
+        <!--列表页面-->
+        <activity android:name=".z_sample.divview.netlist.NetListActivity"/>
+        <!--带SwipeMenuListView的列表页面-->
+        <activity android:name=".z_sample.divview.netlistWithSwipeMenuListView.NetListSwipeActivity"/>
+        <!--slidingmenu入口-->
+        <activity android:name=".z_sample.divview.slidingmenu.SlidingmenuIndexActivity"/>
+        <!--circleimageview-->
+        <activity android:name=".z_sample.divview.circleimageview.CircleImageViewActivity"/>
+        <!--demo的页面-->
+        <activity android:name=".z_sample.demo.ADemoIndexActivity"/>
+        <!--SurfaceView类-->
+        <activity android:name=".z_sample.demo.DemoSurfaceViewActivity"/>
+
+
+        <!--二维码模块首页-->
+        <activity android:name=".z_sample.scan.SampleScanIndexActivity"/>
+
+        <!--百度地图开始-->
+        <activity android:name=".z_sample.baidumap.SampleBaidumapIndexActivity"/>
+        <activity android:name=".z_sample.baidumap.BaidumapInitActivity"/>
+        <activity android:name=".z_sample.baidumap.BaidumapSearchActivity"/>
+        <activity android:name=".z_sample.baidumap.BaidumapRoadSearchActivity"/>
+        <activity android:name=".z_sample.baidumap.BaidumapLocationActivity"/>
+        <!--定位服务-->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+        </service>
+        <!--百度地图结束-->
+
+        <!--二维码生成页面-->
+        <activity android:name=".basefunc.LZScan.ScanCreateActivity"/>
+
+        <!--扫描二维码页面-->
+        <activity android:name=".basefunc.LZScan.ScanCommonActivity"/>
+
+
+        <!--&lt;!&ndash;视频录制&ndash;&gt;-->
+        <!--<activity-->
+        <!--android:name=".base.LZRecorder.ActivityFFmpegPreview"-->
+        <!--android:screenOrientation="portrait"/>-->
+        <!--<activity-->
+        <!--android:name=".base.LZRecorder.ActivityFFmpegRecorder"-->
+        <!--android:screenOrientation="portrait"/>-->
+        <!--<activity-->
+        <!--android:name=".base.LZRecorder.ActivityRecorder"-->
+        <!--android:label="@string/app_name"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>-->
+
+
+        <activity
+            android:name=".basefunc.LZRecord.PlayVideoActiviy"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".basefunc.LZRecord.RecordMainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".basefunc.LZRecord.NewRecordVideoActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+
+        <activity
+            android:name=".z_sample.divview.activityButtonup.ActivityButtonUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_activitydialog_buttonup"/>
+
+        <activity
+            android:name=".z_sample.takePhoto.SampleTakePhotoActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <!-- ########################### umeng需要的activity注册开始 ########################### -->
+        <!--微信登录回调activity平台-->
+        <activity
+            android:name="com.lazy.android.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <!--QQ QZONE-->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent1104703359"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+
+        <!--新浪微博-->
+        <activity
+            android:name=".umengCallback.WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+
+        <service
+            android:name="com.sina.weibo.sdk.net.DownloadService"
+            android:exported="false">
+        </service>
+
+        <!--&lt;!&ndash;人人网&ndash;&gt;-->
+        <!--<activity-->
+        <!--android:name="com.renn.rennsdk.oauth.OAuthActivity"-->
+        <!--android:configChanges="orientation|navigation|keyboardHidden" />-->
+
+        <!--&lt;!&ndash;支付宝&ndash;&gt;-->
+        <!--<activity-->
+        <!--android:name=".apshare.ShareEntryActivity"-->
+        <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
+        <!--android:exported="true"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+
+
+        <!-- ########################### umeng需要的activity注册结束 ########################### -->
+
+
+        <!--<activity name>-->
+
+
+        <!--底部弹出拍照-->
+        <activity
+            android:name=".baseui.crumbs.CrumbsTakephotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_activitydialog_buttonup"/>
+
+        <!--底部弹出Umeng分享-->
+        <activity
+            android:name=".baseui.crumbs.CrumbsUmengSharedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_activitydialog_buttonup"/>
+
+        <!--横向滚动相册效果-->
+        <activity
+            android:name=".z_sample.divview.HorizontalScrollView.Activity_hscroll"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <!--城市拾取器-->
+        <activity
+            android:name=".baseui.crumbs.CrumbsCityPick.CrumbsCityPickActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_activitydialog_buttonup">
+        </activity>
+
+        <!--选择城市列表-->
+        <activity android:name=".z_sample.divview.citylist.lzcitylist_IndexActivity"/>
+
+        <!--弹出listview选择器-->
+        <activity
+            android:name=".baseui.crumbs.CrumbsPickerListviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_activitydialog"/>
+
+        <!--弹出listview多个选择器-->
+        <activity
+            android:name=".baseui.crumbs.CrumbsPickerListviewsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_activitydialog"/>
+
+
+        <!--性别拾取器-->
+        <activity
+            android:name=".baseui.crumbs.CrumbsPickerDiyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_activitydialog"/>
+
+
+        <!--日期拾取器-->
+        <activity
+            android:name=".baseui.crumbs.CrumbsPickerDateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_CustomAlertDialog"/>
+
+        <!--时间拾取器-->
+        <activity
+            android:name=".baseui.crumbs.CrumbsPickerTimeActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <!--微信支付回调-->
+        <!--必须加下面这句android:exported="true"   否则跳转不过去-->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_CustomAlertDialog"/>
+
+
+        <!--支付宝支付-->
+        <activity
+            android:name=".basefunc.LZPay.AlipayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_CustomAlertDialog">
+
+
+        </activity>
+
+        <!--微信支付-->
+        <activity
+            android:name=".basefunc.LZPay.WxpayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_CustomAlertDialog">
+        </activity>
+        <!--选择城市首页-->
+
+        <!--时间列表横向滚动-->
+        <activity android:name=".z_sample.divview.timelist.timelistActivity"/>
+
+        <!--首页模板-->
+        <activity android:name=".z_sample.divview.indexdemo.indexdemoActivity"/>
+
+        <!--通讯录页面-->
+        <activity android:name=".z_sample.divview.addressbook.addressbookActivity"/>
+
+        <!--订单列表页面-->
+        <activity android:name=".z_sample.divview.orderlist.orderlistActivity"/>
+
+
+        <!--====================================sample模块页面结束====================================-->
+
+
+
+        <!--====================================极光推送开始====================================-->
+
+        <!-- Required SDK 核心功能-->
+        <!-- option since 2.0.5 可配置PushService，DaemonService,PushReceiver,AlarmReceiver的android:process参数 将JPush相关组件设置为一个独立进程 -->
+        <!-- 如：android:process=":remote" -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER"/>
+                <action android:name="cn.jpush.android.intent.REPORT"/>
+                <action android:name="cn.jpush.android.intent.PushService"/>
+                <action android:name="cn.jpush.android.intent.PUSH_TIME"/>
+            </intent-filter>
+        </service>
+
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService"/>
+                <category android:name="com.lazy.android"/>
+            </intent-filter>
+        </service>
+
+        <!-- Required -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"/>
+                <category android:name="com.lazy.android"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <!-- Required SDK核心功能-->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.lazy.android"/>
+            </intent-filter>
+        </activity>
+        <!-- Required SDK核心功能-->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false">
+        </service>
+        <!-- Required SDK核心功能-->
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver"/>
+
+        <!-- User defined. 用户自定义的广播接收器-->
+        <receiver
+            android:name=".basefunc.LZPush.JpushReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <!--Required 用户注册SDK的intent-->
+                <action android:name="cn.jpush.android.intent.REGISTRATION"/>
+                <!--Required 用户接收SDK消息的intent-->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"/>
+                <!--Required 用户接收SDK通知栏信息的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"/>
+                <!--Required 用户打开自定义通知栏的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"/>
+                <!--Optional 用户接受Rich Push Javascript 回调函数的intent-->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK"/>
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <action android:name="cn.jpush.android.intent.CONNECTION"/>
+                <category android:name="com.lazy.android"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- Required. For publish channel feature -->
+        <!-- JPUSH_CHANNEL 是为了方便开发者统计APK分发渠道。-->
+        <!-- 例如: -->
+        <!-- 发到 Google Play 的APK可以设置为 google-play; -->
+        <!-- 发到其他市场的 APK 可以设置为 xxx-market。 -->
+        <!-- 目前这个渠道统计功能的报表还未开放。-->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default"/>
+        <!-- Required. AppKey copied from Portal -->
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="f510750726fb9ed910378aaa"/>
+
+        <!--====================================极光推送结束====================================-->
+
+
+        <!--百度地图开始-->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="8C4aFDt2LrTK7jkoSvsBFcmMVTfnscO6"/>
+        <!--百度地图结束-->
+
+
+    </application>
+
+
+</manifest>

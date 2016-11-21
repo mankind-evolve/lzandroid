@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BASE64">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/BASE64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

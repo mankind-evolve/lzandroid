@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/lz_common_head"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="各种功能类的demo"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/xutils"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="xutils"/>
+
+        <TextView
+            android:id="@+id/umeng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="友盟"/>
+
+        <TextView
+            android:id="@+id/jiguang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="极光"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/html"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="html交互"/>
+
+        <TextView
+            android:id="@+id/recoder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="视频录制"/>
+
+
+        <TextView
+            android:id="@+id/divview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="界面效果"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/takephoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="拍照和相册"/>
+
+        <TextView
+            android:id="@+id/weixinpay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="微信支付"/>
+
+
+        <TextView
+            android:id="@+id/alipay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="支付宝支付"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="二维码扫描"/>
+
+        <TextView
+            android:id="@+id/baidumap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="百度地图"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

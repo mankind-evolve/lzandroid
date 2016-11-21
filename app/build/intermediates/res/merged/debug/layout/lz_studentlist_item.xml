@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/studentlist_alpha"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_50"
+        android:paddingLeft="@dimen/px_20"
+        android:background="@drawable/lz_border_bottom_none"
+        android:gravity="center_vertical"
+        android:textColor="@color/m_text_main"
+        android:textSize="@dimen/text_size_24"
+        android:visibility="gone" />
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_100"
+        android:gravity="center_vertical"
+        android:background="@color/m_white"
+        android:paddingLeft="@dimen/px_10"
+        android:paddingRight="@dimen/px_50"
+
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/studentlist_headimg"
+            android:layout_width="@dimen/px_100"
+            android:layout_height="@dimen/px_100"
+            android:background="@drawable/lz_border_round"
+            android:src="@drawable/lz_nopic"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/px_30"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_50"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/studentlist_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_36"
+                    android:textColor="@color/textcolor333"
+                    android:text="姓名"/>
+                <ImageView
+                    android:id="@+id/studentlist_sex"
+                    android:layout_width="@dimen/px_30"
+                    android:layout_height="@dimen/px_30"
+                    android:layout_marginLeft="@dimen/px_10"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/px_10"
+                    android:visibility="gone"
+                    android:src="@drawable/lz_ico_add"/>
+                <TextView
+                    android:id="@+id/studentlist_parents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_24"
+                    android:textColor="@color/textcolor999"
+                    android:text="家长"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_30"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/studentlist_class"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_24"
+                    android:textColor="@color/textcolor999"
+                    android:text="班级"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/studentlist_intime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_24"
+                    android:textColor="@color/textcolor999"
+                    android:text="入住时间"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="25dp"
+        android:background="#E2E2E2" />
+
+
+
+</LinearLayout>

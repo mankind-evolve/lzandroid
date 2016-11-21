@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E9E9E9"
+        android:orientation="vertical">
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingTop="5dip" >-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="20dip"-->
+                <!--android:text="请选择省市区"-->
+                <!--android:textColor="#000000"-->
+                <!--android:textSize="20sp" />-->
+        <!--</RelativeLayout>-->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal" >
+
+            <com.lazy.android.baseui.crumbs.CrumbsCityPick.WheelView
+                android:id="@+id/id_province"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </com.lazy.android.baseui.crumbs.CrumbsCityPick.WheelView>
+
+            <com.lazy.android.baseui.crumbs.CrumbsCityPick.WheelView
+                android:id="@+id/id_city"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </com.lazy.android.baseui.crumbs.CrumbsCityPick.WheelView>
+
+            <com.lazy.android.baseui.crumbs.CrumbsCityPick.WheelView
+                android:id="@+id/id_district"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </com.lazy.android.baseui.crumbs.CrumbsCityPick.WheelView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_marginTop="@dimen/px_10"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_80"
+            android:gravity="center"
+            android:text="确定"
+            android:background="@drawable/lz_button_bg"
+            android:layout_marginLeft="@dimen/px_20"
+            android:layout_marginRight="@dimen/px_20"
+            android:layout_marginBottom="@dimen/px_20"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</RelativeLayout>

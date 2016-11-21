@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/chenglei/小饭桌/code/libproduct/easeui/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/chenglei/小饭桌/code/libproduct/easeui/build-types/debug/shaders"/></dataSet></merger>

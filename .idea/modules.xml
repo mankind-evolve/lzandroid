@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alib_WXLikeVideoRecorderLib/alib_WXLikeVideoRecorderLib.iml" filepath="$PROJECT_DIR$/alib_WXLikeVideoRecorderLib/alib_WXLikeVideoRecorderLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alib_slidingmenulibrary/alib_slidingmenulibrary.iml" filepath="$PROJECT_DIR$/alib_slidingmenulibrary/alib_slidingmenulibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lzandroid.iml" filepath="$PROJECT_DIR$/lzandroid.iml" />
+    </modules>
+  </component>
+</project>

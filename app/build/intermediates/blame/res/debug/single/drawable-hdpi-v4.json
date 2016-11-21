@@ -1,0 +1,294 @@
+[
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lzchatfrom_bg_normal.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lzchatfrom_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ms_smallvideo_icon.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/res/drawable-hdpi-v4/ms_smallvideo_icon.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lz_dialogbg.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lz_dialogbg.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lzchat_video_mask_to.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lzchat_video_mask_to.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_gf_back.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable-hdpi/ic_gf_back.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_gf_rotate.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable-hdpi/ic_gf_rotate.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lzcitylsit_cityhot_edittext_bg.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lzcitylsit_cityhot_edittext_bg.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_gf_crop.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable-hdpi/ic_gf_crop.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_16dp.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lz_button_bg.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lz_button_bg.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lzchat_location_msg.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lzchat_location_msg.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_36dp.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lzrecorder_lightgreen_bg.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lzrecorder_lightgreen_bg.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lz_button_null.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lz_button_null.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lzcitylsit_title_bar_background.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lzcitylsit_title_bar_background.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_focused_holo.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lz_button_bg_blue.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lz_button_bg_blue.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lzcitylsit_wb_city_search_bg.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lzcitylsit_wb_city_search_bg.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_gf_camera.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable-hdpi/ic_gf_camera.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ms_video_focus_icon.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/res/drawable-hdpi-v4/ms_video_focus_icon.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lzchatto_bg_focused.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lzchatto_bg_focused.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/__leak_canary_icon.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/drawable-hdpi/__leak_canary_icon.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_gf_done.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable-hdpi/ic_gf_done.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lz_toast_bg_bak.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lz_toast_bg_bak.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lzchatto_bg_normal.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lzchatto_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/gf_ic_preview.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable-hdpi/gf_ic_preview.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lzchatfrom_bg_focused.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lzchatfrom_bg_focused.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lz_button_on.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable-hdpi/lz_button_on.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_gf_clear.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable-hdpi/ic_gf_clear.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    }
+]

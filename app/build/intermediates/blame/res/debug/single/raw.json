@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/raw/beep.ogg"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/raw/keep.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/raw/keep.xml"
+    }
+]

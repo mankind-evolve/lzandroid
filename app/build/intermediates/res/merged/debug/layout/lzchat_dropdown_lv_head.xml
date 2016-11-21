@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ListView的头部 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="0.2dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/blue_09aaa5" />
+
+    <LinearLayout
+        android:id="@+id/drop_down_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="0.2dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/blue_1716ae" />
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="20dip"
+            android:layout_height="20dip"/>
+    </LinearLayout>
+
+</FrameLayout>

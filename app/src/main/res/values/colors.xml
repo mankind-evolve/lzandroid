@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#130c0e</color>
+    <color name="green">#008000</color>
+    <!--透明颜色-->
+    <color name="transparent">#0000</color>
+    <!--半透明颜色-->
+    <color name="transparenthalf">#6ccc</color>
+    <!--分割线颜色-->
+    <color name="cutoff_line">#dbdbdb</color>
+    <color name="border_cutoff_line">#eeeeee</color>
+    <color name="line_color_b2b2b2">#b2b2b2</color>
+    <!--主色调-->
+    <color name="main">#4eabe1</color>
+    <color name="mainbg">#ebebeb</color>
+    <!--提示文字的颜色-->
+    <color name="hinttext">#cccccc</color>
+    <!--蓝色的文本颜色-->
+    <color name="bluetext">#4eabe1</color>
+    <!--灰色的文本颜色-->
+    <color name="textcolor999">#999999</color>
+    <!--灰色的标题文本颜色-->
+    <color name="textcolor666">#666666</color>
+    <color name="textcolor333">#333333</color>
+    <color name="textorange">#f96a5e</color>
+    <color name="textred">#fb3f41</color>
+    <color name="textredea6e76">#ea6e76</color>
+    <color name="textblue4eabe1">#4eabe1</color>
+    <color name="f8f8f8">#f8f8f8</color>
+    <!--sample图片提取的色值-->
+    <color name="blue_374ff6">#374ff6</color>
+    <color name="blue_09aaa5">#09aaa5</color>
+    <color name="blue_427df5">#427df5</color>
+    <color name="blue_232dde">#232dde</color>
+    <color name="blue_77a5fc">#77a5fc</color>
+    <color name="blue_a0d7f7">#a0d7f7</color>
+    <color name="blue_1716ae">#1716ae</color>
+    <color name="blue_f1faf8">#f1faf8</color>
+    <!--选择城市用到的色值-->
+    <color name="colorPrimary">#F3F3F3</color>
+    <color name="colorPrimaryDark">#F3F3F3</color>
+    <color name="colorAccent">#F3F3F3</color>
+    <color name="divider">#E5E5E5</color>
+    <color name="shadow">#AAEBEBEB</color>
+    <color name="common_bg">#FAFAFA</color>
+    <color name="content_bg">#F3F3F3</color>
+    <color name="gray">#8c8c8c</color>
+    <color name="gray_deep">#5c5c5c</color>
+    <color name="alpha_gray">#CC646464</color>
+    <color name="theme_gray">#646464</color>
+
+    <!--底部按钮选中和未选中的色值-->
+    <color name="menu_on">#4eabe1</color>
+    <color name="menu_off">#666666</color>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/lz_common_head"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="@dimen/px_100"
+            android:layout_height="wrap_content"
+            android:text="起点:"
+            android:textColor="@color/textcolor666"
+            android:textSize="@dimen/text_size_28"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/baiduroad_start"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/px_20"
+            android:text="龙泽"
+            android:textColor="@color/textcolor666"
+            android:background="@drawable/lz_border_round"
+            android:layout_margin="@dimen/px_10"
+            />
+
+
+        <TextView
+            android:layout_width="@dimen/px_100"
+            android:layout_height="wrap_content"
+            android:text="终点:"
+            android:textColor="@color/textcolor666"
+            android:textSize="@dimen/text_size_28"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/baiduroad_end"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="西单"
+            android:textColor="@color/textcolor666"
+            android:paddingLeft="@dimen/px_20"
+            android:background="@drawable/lz_border_round"
+            android:layout_margin="@dimen/px_10"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/baiduroad_bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="公交"
+            android:layout_margin="@dimen/px_10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_28"
+            android:background="@drawable/lz_button_on"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/baiduroad_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="驾车"
+            android:layout_margin="@dimen/px_10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_28"
+            android:background="@drawable/lz_button_on"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/baiduroad_walk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="步行"
+            android:layout_margin="@dimen/px_10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_28"
+            android:background="@drawable/lz_button_on"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/baidumapsearch_mapview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

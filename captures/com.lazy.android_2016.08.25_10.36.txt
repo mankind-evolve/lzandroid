@@ -1,0 +1,296 @@
+TASK com.armyant.company id=6
+  ACTIVITY com.armyant.company/.z_meiang.m_indexActivity 5373ee34 pid=3528
+    Local FragmentActivity 53546534 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    Active Fragments in 535271cc:
+      #0: m_work_fragment_index{535361d0 #0 id=0x7f0b00ea}
+        mFragmentId=#7f0b00ea mContainerId=#7f0b00ea mTag=null
+        mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{535271cc in HostCallbacks{535454f0}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@535454f0
+        mContainer=android.widget.FrameLayout{535201a4 V.E..... ........ 0,0-720,1134 #7f0b00ea app:id/m_index_fragment}
+        mView=android.widget.RelativeLayout{5355ced0 V.E..... ........ 0,0-720,1134}
+        mInnerView=android.widget.RelativeLayout{5355ced0 V.E..... ........ 0,0-720,1134}
+        Child FragmentManager{5355cdb8 in m_work_fragment_index{535361d0}}:
+          Active Fragments in 5355cdb8:
+            #0: m_work_fragment_indextoday{5355dab0 #0 id=0x7f0b00f3 android:switcher:2131427571:0}
+              mFragmentId=#7f0b00f3 mContainerId=#7f0b00f3 mTag=android:switcher:2131427571:0
+              mState=5 mIndex=0 mWho=android:fragment:0:0 mBackStackNesting=0
+              mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+              mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+              mRetainInstance=false mRetaining=false mUserVisibleHint=true
+              mFragmentManager=FragmentManager{5355cdb8 in m_work_fragment_index{535361d0}}
+              mHost=android.support.v4.app.FragmentActivity$HostCallbacks@535454f0
+              mParentFragment=m_work_fragment_index{535361d0 #0 id=0x7f0b00ea}
+              mContainer=android.support.v4.view.ViewPager{53560444 VFED.... ........ 0,0-720,1038 #7f0b00f3 app:id/work_index_vp}
+              mView=android.widget.LinearLayout{53570188 V.E..... ........ 0,0-720,1038}
+              mInnerView=android.widget.LinearLayout{53570188 V.E..... ........ 0,0-720,1038}
+              Child FragmentManager{5356fc68 in m_work_fragment_indextoday{5355dab0}}:
+                FragmentManager misc state:
+                  mHost=android.support.v4.app.FragmentActivity$HostCallbacks@535454f0
+                  mContainer=android.support.v4.app.Fragment$1@5356fca8
+                  mParent=m_work_fragment_indextoday{5355dab0 #0 id=0x7f0b00f3 android:switcher:2131427571:0}
+                  mCurState=5 mStateSaved=false mDestroyed=false
+            #1: m_work_fragment_indexhistory{5350c9a8 #1 id=0x7f0b00f3 android:switcher:2131427571:1}
+              mFragmentId=#7f0b00f3 mContainerId=#7f0b00f3 mTag=android:switcher:2131427571:1
+              mState=5 mIndex=1 mWho=android:fragment:0:1 mBackStackNesting=0
+              mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+              mHidden=false mDetached=false mMenuVisible=false mHasMenu=false
+              mRetainInstance=false mRetaining=false mUserVisibleHint=false
+              mFragmentManager=FragmentManager{5355cdb8 in m_work_fragment_index{535361d0}}
+              mHost=android.support.v4.app.FragmentActivity$HostCallbacks@535454f0
+              mParentFragment=m_work_fragment_index{535361d0 #0 id=0x7f0b00ea}
+              mContainer=android.support.v4.view.ViewPager{53560444 VFED.... ........ 0,0-720,1038 #7f0b00f3 app:id/work_index_vp}
+              mView=android.widget.LinearLayout{5351322c V.E..... ........ 720,0-1440,1038}
+              mInnerView=android.widget.LinearLayout{5351322c V.E..... ........ 720,0-1440,1038}
+              Child FragmentManager{5353de0c in m_work_fragment_indexhistory{5350c9a8}}:
+                FragmentManager misc state:
+                  mHost=android.support.v4.app.FragmentActivity$HostCallbacks@535454f0
+                  mContainer=android.support.v4.app.Fragment$1@5351454c
+                  mParent=m_work_fragment_indexhistory{5350c9a8 #1 id=0x7f0b00f3 android:switcher:2131427571:1}
+                  mCurState=5 mStateSaved=false mDestroyed=false
+          Added Fragments:
+            #0: m_work_fragment_indextoday{5355dab0 #0 id=0x7f0b00f3 android:switcher:2131427571:0}
+            #1: m_work_fragment_indexhistory{5350c9a8 #1 id=0x7f0b00f3 android:switcher:2131427571:1}
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@535454f0
+            mContainer=android.support.v4.app.Fragment$1@5355cdf8
+            mParent=m_work_fragment_index{535361d0 #0 id=0x7f0b00ea}
+            mCurState=5 mStateSaved=false mDestroyed=false
+    Added Fragments:
+      #0: m_work_fragment_index{535361d0 #0 id=0x7f0b00ea}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@535454f0
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@535454f0
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{535046c8 V.E..... ... 0,0-720,1280}
+        android.widget.LinearLayout{535324a8 V.E..... ... 0,0-720,1280}
+          android.view.ViewStub{53517598 G.E..... ... 0,0-0,0 #1020354}
+          android.widget.FrameLayout{53545d7c V.E..... ... 0,50-720,1280 #1020002 android:id/content}
+            android.widget.RelativeLayout{5352aee4 V.E..... ... 0,0-720,1230}
+              android.widget.FrameLayout{535201a4 V.E..... ... 0,0-720,1134 #7f0b00ea app:id/m_index_fragment}
+                android.widget.RelativeLayout{5355ced0 V.E..... ... 0,0-720,1134}
+                  android.widget.LinearLayout{5355d1a4 V.E..... ... 0,0-720,96}
+                    com.armyant.company.z_meiang.common.m_CommonHead{5355d4d4 V.E..... ... 0,0-720,96 #7f0b00d7 app:id/m_common_head}
+                      android.widget.RelativeLayout{5355db7c V.E..... ... 0,0-720,96}
+                        android.widget.ImageView{5355e1c8 I.ED.... ... 10,10-60,60 #7f0b00d8 app:id/m_common_head_back}
+                        android.widget.LinearLayout{5355e3e8 V.E..... ... 0,0-720,96}
+                          android.widget.TextView{5355e610 G.ED.... ... 0,0-0,0 #7f0b00d9 app:id/m_common_head_textonly}
+                          android.widget.LinearLayout{5355ec90 V.E..... ... 0,0-720,96 #7f0b00da app:id/m_common_head_textmore}
+                            android.widget.TextView{5355ee20 V.ED..C. ... 170,0-360,96 #7f0b00db app:id/m_common_head_textmore_1}
+                            android.widget.TextView{5355f060 V.ED..C. ... 360,0-550,96 #7f0b00dc app:id/m_common_head_textmore_2}
+                            android.widget.TextView{5355f2a0 G.ED..C. ... 0,0-0,0 #7f0b00dd app:id/m_common_head_textmore_3}
+                        android.widget.LinearLayout{5355f4e0 V.E..... ... 636,0-720,96}
+                          android.widget.TextView{5355f6e8 G.ED.... ... 0,0-0,0 #7f0b00de app:id/m_common_head_right_text}
+                          android.widget.ImageView{5355f928 G.ED.... ... 0,0-0,0 #7f0b00df app:id/m_common_head_right_img}
+                          android.widget.RelativeLayout{5355faac V.E..... ... 10,6-74,90 #7f0b00e0 app:id/m_common_head_right_mes}
+                            android.widget.ImageView{5355fd08 V.ED.... ... 0,17-50,67}
+                            android.widget.TextView{5355ff04 G.ED.... ... 0,0-0,0 #7f0b00e1 app:id/m_common_head_right_mes_num}
+                  android.widget.LinearLayout{53560200 V.E..... ... 0,96-720,1134}
+                    android.support.v4.view.ViewPager{53560444 VFED.... ... 0,0-720,1038 #7f0b00f3 app:id/work_index_vp}
+                      android.widget.LinearLayout{53570188 V.E..... ... 0,0-720,1038}
+                        android.widget.ListView{53570488 VFED.VC. F.. 0,0-720,1038 #7f0b010b app:id/work_indextoday_listview}
+                          android.widget.LinearLayout{5352c224 V.E..... ... 0,0-720,100}
+                            android.widget.LinearLayout{53538de0 V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{5353f664 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{535a0f04 V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{535486b0 V.ED.... ... 127,28-434,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{535390a4 V.ED.... ... 444,31-500,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{53538f04 G.ED.... ... 0,0-0,0 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{535aae3c G.ED.... ... 0,0-0,0 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{535ab274 V.ED.... ... 530,20-660,80 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{53567478 V.E..... ... 0,100-720,200}
+                            android.widget.LinearLayout{53567588 V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{535657f0 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{53561d6c V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{535aaffc V.ED.... ... 127,28-434,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{53570e2c V.ED.... ... 444,31-500,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{5359fb4c G.ED.... ... 0,0-0,0 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{5359fcf8 G.ED.... ... 0,0-0,0 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{53597b2c V.ED.... ... 530,20-660,80 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{53597c7c V.E..... ... 0,200-720,300}
+                            android.widget.LinearLayout{53597d8c V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{5358816c V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{535891cc V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{5358931c V.ED.... ... 127,28-434,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{5358946c V.ED.... ... 444,31-500,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{535895bc G.ED.... ... 0,0-0,0 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{53551cbc G.ED.... ... 0,0-0,0 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{53551e0c V.ED.... ... 530,20-660,80 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{53551f5c V.E..... ... 0,300-720,400}
+                            android.widget.LinearLayout{5355206c V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{53561c38 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{5355217c V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{5352b0f4 V.ED.... ... 127,28-434,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{5352b244 V.ED.... ... 444,31-500,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{5352b394 G.ED.... ... 0,0-0,0 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{5352b4e4 G.ED.... ... 0,0-0,0 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{5352b634 V.ED.... ... 530,20-660,80 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{5352b784 V.E..... ... 0,400-720,500}
+                            android.widget.LinearLayout{5356b94c V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{535688a4 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{5356ba5c V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{5356bbac V.ED.... ... 127,28-434,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{5356bcfc V.ED.... ... 444,31-500,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{5356be4c G.ED.... ... 0,0-0,0 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{5356bf9c G.ED.... ... 0,0-0,0 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{535630dc V.ED.... ... 530,20-660,80 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{5356322c V.E..... ... 0,500-720,600}
+                            android.widget.LinearLayout{5356333c V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{53587ac4 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{5356344c V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{5356359c V.ED.... ... 127,28-434,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{535636ec V.ED.... ... 444,31-500,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{5356383c G.ED.... ... 0,0-0,0 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{5356398c G.ED.... ... 0,0-0,0 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{53563adc V.ED.... ... 530,20-660,80 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{5357a05c V.E..... ... 0,600-720,700}
+                            android.widget.LinearLayout{5357a16c V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{5359cc48 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{5357a27c V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{5357a3cc V.ED.... ... 127,28-434,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{5357a51c V.ED.... ... 444,31-500,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{5357a66c G.ED.... ... 0,0-0,0 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{5357a7bc G.ED.... ... 0,0-0,0 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{5357a90c V.ED.... ... 530,20-660,80 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{5357aa5c V.E..... ... 0,700-720,800}
+                            android.widget.LinearLayout{5357ab6c V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{53561ebc V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{535ab490 V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{535ab5e0 V.ED.... ... 127,28-434,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{535ab730 V.ED.... ... 444,31-500,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{535ab880 G.ED.... ... 0,0-0,0 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{535ab9d0 G.ED.... ... 0,0-0,0 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{535abb20 V.ED.... ... 530,20-660,80 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{535abc70 V.E..... ... 0,800-720,900}
+                            android.widget.LinearLayout{535abd80 V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{5358970c V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{535abe90 V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{535abfe0 V.ED.... ... 127,28-434,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{535ac130 V.ED.... ... 444,31-500,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{53586570 G.ED.... ... 0,0-0,0 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{535866c0 G.ED.... ... 0,0-0,0 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{53586810 V.ED.... ... 530,20-660,80 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{53586960 V.E..... ... 0,900-720,1000}
+                            android.widget.LinearLayout{53586a70 V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{535aad38 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{53586b80 V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{53586cd0 V.ED.... ... 127,28-434,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{53586e20 V.ED.... ... 444,31-500,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{53586f70 G.ED.... ... 0,0-0,0 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{535870c0 G.ED.... ... 0,0-0,0 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{53587210 V.ED.... ... 530,20-660,80 #7f0b0104 app:id/work_listadapter_button}
+                      android.widget.LinearLayout{5351322c V.E..... ... 720,0-1440,1038}
+                        android.widget.ListView{53548850 VFED.VC. ... 0,0-720,1038 #7f0b010a app:id/work_indexhistory_listview}
+                          android.widget.LinearLayout{5359ed38 V.E..... ... 0,0-720,100}
+                            android.widget.LinearLayout{535659a8 V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{53565d5c V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{53565ee0 V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{53564010 V.ED.... ... 127,28-437,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{53564184 V.ED.... ... 447,31-503,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{535643a0 V.ED.... ... 533,31-604,69 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{535645c4 V.ED.... ... 604,31-660,69 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{53566b0c G.ED.... ... 0,0-0,0 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{53567320 V.E..... ... 0,100-720,200}
+                            android.widget.LinearLayout{535af9dc V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{535afd88 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{535aff0c V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{535b0130 V.ED.... ... 127,28-437,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{5356796c V.ED.... ... 447,31-503,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{53567b90 V.ED.... ... 533,31-604,69 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{53567db4 V.ED.... ... 604,31-660,69 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{53567fd8 G.ED.... ... 0,0-0,0 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{53581d40 V.E..... ... 0,200-720,300}
+                            android.widget.LinearLayout{53581eac V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{53582268 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{535823ec V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{5357ec4c V.ED.... ... 127,28-437,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{5357edc0 V.ED.... ... 447,31-503,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{5357efd4 V.ED.... ... 533,31-604,69 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{5357f1f8 V.ED.... ... 604,31-660,69 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{5357f41c G.ED.... ... 0,0-0,0 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{5357fdb0 V.E..... ... 0,300-720,400}
+                            android.widget.LinearLayout{5357fefc V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{535802b8 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{5358043c V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{53580660 V.ED.... ... 127,28-437,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{53580884 V.ED.... ... 447,31-503,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{53580ad0 V.ED.... ... 533,31-604,69 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{53580cf4 V.ED.... ... 604,31-660,69 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{53580f18 G.ED.... ... 0,0-0,0 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{535a9b7c V.E..... ... 0,400-720,500}
+                            android.widget.LinearLayout{535a9c8c V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{535aa008 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{535aa18c V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{535aa3b0 V.ED.... ... 127,28-437,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{535aa5d4 V.ED.... ... 447,31-503,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{535aa7f8 V.ED.... ... 533,31-604,69 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{535aaa1c V.ED.... ... 604,31-660,69 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{535a4f48 G.ED.... ... 0,0-0,0 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{535a5838 V.E..... ... 0,500-720,600}
+                            android.widget.LinearLayout{535a59a4 V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{535a5d60 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{535a5ee4 V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{535a6108 V.ED.... ... 127,28-437,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{535a632c V.ED.... ... 447,31-503,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{535a6550 V.ED.... ... 533,31-604,69 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{535a6774 V.ED.... ... 604,31-660,69 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{535a6998 G.ED.... ... 0,0-0,0 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{535adc70 V.E..... ... 0,600-720,700}
+                            android.widget.LinearLayout{535addd4 V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{535ae190 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{535ae314 V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{535ae538 V.ED.... ... 127,28-437,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{535ae75c V.ED.... ... 447,31-503,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{535ae980 V.ED.... ... 533,31-604,69 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{535aeba4 V.ED.... ... 604,31-660,69 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{535aedc8 G.ED.... ... 0,0-0,0 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{535b0698 V.E..... ... 0,700-720,800}
+                            android.widget.LinearLayout{535b0804 V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{535b0bc0 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{535b0d44 V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{535b0f68 V.ED.... ... 127,28-437,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{535b118c V.ED.... ... 447,31-503,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{535b13b0 V.ED.... ... 533,31-604,69 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{535b15d4 V.ED.... ... 604,31-660,69 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{535b17f8 G.ED.... ... 0,0-0,0 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{535b2144 V.E..... ... 0,800-720,900}
+                            android.widget.LinearLayout{535b22b0 V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{535b266c V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{535b27f0 V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{5357b04c V.ED.... ... 127,28-437,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{5357b270 V.ED.... ... 447,31-503,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{5357b494 V.ED.... ... 533,31-604,69 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{5357b6b8 V.ED.... ... 604,31-660,69 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{5357b8dc G.ED.... ... 0,0-0,0 #7f0b0104 app:id/work_listadapter_button}
+                          android.widget.LinearLayout{5357c228 V.E..... ... 0,900-720,1000}
+                            android.widget.LinearLayout{5357c394 V.E..... ... 30,0-690,100}
+                              android.widget.ImageView{5357c750 V.ED.... ... 0,32-36,68}
+                              android.widget.TextView{5357c8d4 V.ED.... ... 46,31-117,69 #7f0b00ff app:id/work_listadapter_time}
+                              android.widget.TextView{5357caf8 V.ED.... ... 127,28-437,71 #7f0b0100 app:id/work_listadapter_name}
+                              android.widget.TextView{5357cd1c V.ED.... ... 447,31-503,69 #7f0b0101 app:id/work_listadapter_person}
+                              android.widget.TextView{5357cf40 V.ED.... ... 533,31-604,69 #7f0b0102 app:id/work_listadapter_donetime}
+                              android.widget.TextView{5357d164 V.ED.... ... 604,31-660,69 #7f0b0103 app:id/work_listadapter_donetime_text}
+                              android.widget.TextView{5357d388 G.ED.... ... 0,0-0,0 #7f0b0104 app:id/work_listadapter_button}
+              android.widget.LinearLayout{53516f2c V.E..... ... 0,1134-720,1230}
+                com.armyant.company.z_meiang.common.m_CommonFoot{5352aa0c V.E..... ... 0,0-720,96 #7f0b00c7 app:id/m_common_foot}
+                  android.widget.LinearLayout{53504a5c V.E...C. ... 0,9-144,86 #7f0b00c8 app:id/foot_menu_work_ll}
+                    android.widget.ImageView{53521db8 V.ED.... ... 52,0-92,40 #7f0b00c9 app:id/foot_menu_work_img}
+                    android.widget.TextView{53522124 V.ED.... ... 48,44-96,77 #7f0b00ca app:id/foot_menu_work_text}
+                  android.widget.LinearLayout{5353e8b4 V.E...C. ... 144,9-288,86 #7f0b00cb app:id/foot_menu_receive_ll}
+                    android.widget.ImageView{5353ea08 V.ED.... ... 52,0-92,40 #7f0b00cc app:id/foot_menu_receive_img}
+                    android.widget.TextView{53515c4c V.ED.... ... 48,44-96,77 #7f0b00cd app:id/foot_menu_receive_text}
+                  android.widget.LinearLayout{53515e78 V.E...C. ... 288,9-432,86 #7f0b00ce app:id/foot_menu_buy_ll}
+                    android.widget.ImageView{53515ff8 V.ED.... ... 52,0-92,40 #7f0b00cf app:id/foot_menu_buy_img}
+                    android.widget.TextView{535162d4 V.ED.... ... 48,44-96,77 #7f0b00d0 app:id/foot_menu_buy_text}
+                  android.widget.LinearLayout{53540e88 V.E...C. ... 432,9-576,86 #7f0b00d1 app:id/foot_menu_education_ll}
+                    android.widget.ImageView{53540fe8 V.ED.... ... 52,0-92,40 #7f0b00d2 app:id/foot_menu_education_img}
+                    android.widget.TextView{53541b58 V.ED.... ... 48,44-96,77 #7f0b00d3 app:id/foot_menu_education_text}
+                  android.widget.LinearLayout{53541d90 V.E...C. ... 576,9-720,86 #7f0b00d4 app:id/foot_menu_set_ll}
+                    android.widget.ImageView{53541f10 V.ED.... ... 52,0-92,40 #7f0b00d5 app:id/foot_menu_set_img}
+                    android.widget.TextView{53508268 V.ED.... ... 48,44-96,77 #7f0b00d6 app:id/foot_menu_set_text}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal">
+
+    <include layout="@layout/lz_common_head"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.lazy.android.basefunc.LZRecord.LZRecordBase
+            android:id="@+id/recoder_lzrecordbase"
+            android:layout_centerHorizontal="true"
+            android:background="@color/blue_09aaa5"
+            android:layout_marginTop="@dimen/px_20"
+            android:layout_width="320px"
+            android:layout_height="240px"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/recoder_recoding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/px_10"
+                android:layout_weight="1"
+                android:background="@drawable/lz_button_on"
+                android:text="录制"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_32"/>
+            <Button
+                android:id="@+id/recoder_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/px_10"
+                android:background="@drawable/lz_button_on"
+                android:text="停止"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_32"/>
+        </LinearLayout>
+
+
+        <SurfaceView
+            android:id="@+id/recoder_surfaceview"
+            android:layout_width="480px"
+            android:layout_height="720px"
+            android:layout_centerHorizontal="true"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/recoder_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/px_10"
+                android:layout_weight="1"
+                android:background="@drawable/lz_button_on"
+                android:text="播放"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_32"/>
+            <Button
+                android:id="@+id/recoder_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/px_10"
+                android:background="@drawable/lz_button_on"
+                android:text="暂停"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_32"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

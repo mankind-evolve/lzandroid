@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/lz_common_head"/>
+    </LinearLayout>
+
+    <com.lazy.android.basefunc.LZHtml.LZWebView
+        android:id="@+id/common_webview"
+        android:layout_marginTop="@dimen/topbar_height"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</RelativeLayout>

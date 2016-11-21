@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lazy.android.baseui.main.activity.MainActivity">
+    <item android:id="@+id/action_settings" android:title=""
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>

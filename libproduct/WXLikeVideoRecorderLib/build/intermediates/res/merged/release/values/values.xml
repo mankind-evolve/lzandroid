@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CameraPreviewView"><attr format="reference" name="cpv_focusDrawable"/><attr format="reference" name="cpv_indicatorDrawable"/></declare-styleable>
+    <declare-styleable name="RecordProgressBar"><attr format="color" name="rpb_backgroundColor"/><attr format="color" name="rpb_runningColor"/><attr format="color" name="rpb_cancelColor"/><attr format="integer" name="rpb_timeLength"/></declare-styleable>
+    <!-- From: file:/Users/chenglei/Downloads/RecordVideoDemo-master-2/WXLikeVideoRecorderLib/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="camera_focus_area_size">96dp</dimen>
+</resources>

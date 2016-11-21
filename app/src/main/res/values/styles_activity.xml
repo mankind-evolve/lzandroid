@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--activity过长页没动画样式-->
+    <style name="activity_noanimation" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+    </style>
+    <style name="Animation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+
+    <!--activity过长页动画一-->
+    <style name="AnimActivityTheme">
+        <item name="android:windowAnimationStyle">@style/FeelyouWindowAnimTheme</item>
+    </style>
+    <style name="FeelyouWindowAnimTheme" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/lz_activity_anim_in_from_left</item>
+        <item name="android:activityOpenExitAnimation">@anim/lz_activity_anim_out_from_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/lz_activity_anim_in_from_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/lz_activity_anim_out_from_left</item>
+    </style>
+
+
+    <!--将activity转化为dialog-->
+    <style name="DialogTransparent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/crumbs_takephoto_layout"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="@dimen/px_20"
+        android:paddingBottom="@dimen/px_20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_30"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/umengshare_wxpeng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="@dimen/px_97"
+                    android:layout_height="@dimen/px_97"
+                    android:src="@drawable/lz_umengshared_weixinp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px_20"
+                    android:textColor="@color/textcolor333"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="微信朋友圈"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/umengshare_wx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="@dimen/px_97"
+                    android:layout_height="@dimen/px_97"
+                    android:src="@drawable/lz_umengshared_weixin"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor333"
+                    android:layout_marginTop="@dimen/px_20"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="微信朋友"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/umengshare_qq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="@dimen/px_97"
+                    android:layout_height="@dimen/px_97"
+                    android:src="@drawable/lz_umengshared_qq"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor333"
+                    android:textSize="@dimen/text_size_20"
+                    android:layout_marginTop="@dimen/px_20"
+                    android:text="QQ好友"/>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_30"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/umengshare_qzone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="@dimen/px_97"
+                    android:layout_height="@dimen/px_97"
+                    android:src="@drawable/lz_umengshared_qzone"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px_20"
+                    android:textColor="@color/textcolor333"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="Qzone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/umengshare_weibo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="@dimen/px_97"
+                    android:layout_height="@dimen/px_97"
+                    android:src="@drawable/lz_umengshared_weibo"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor333"
+                    android:layout_marginTop="@dimen/px_20"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="微博"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="@dimen/px_97"
+                    android:layout_height="@dimen/px_97"
+                    android:src="@drawable/lz_umengshared_weibo"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor333"
+                    android:layout_marginTop="@dimen/px_20"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="微博"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

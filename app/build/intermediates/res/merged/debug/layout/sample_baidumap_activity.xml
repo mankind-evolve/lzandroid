@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/lz_common_head"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sample_baidumap_init"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="30px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="基础地图"/>
+
+
+
+        <TextView
+            android:id="@+id/sample_baidumap_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="30px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="地图检索结果"/>
+
+
+
+
+        <TextView
+            android:id="@+id/sample_baidumap_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="30px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="地图线路策划"/>
+
+
+        <TextView
+            android:id="@+id/sample_baidumap_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="30px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="地图定位"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

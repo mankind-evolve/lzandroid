@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/lz_common_head"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/takephoto_openphoto_radio"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:background="@drawable/lz_button_on"
+            android:layout_margin="@dimen/px_20"
+            android:text="单选打开相册"
+            android:textSize="@dimen/text_size_36"
+            android:textColor="@color/white"/>
+
+
+        <Button
+            android:id="@+id/takephoto_openphoto_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:background="@drawable/lz_button_on"
+            android:layout_margin="@dimen/px_20"
+            android:text="多选打开相册"
+            android:textSize="@dimen/text_size_36"
+            android:textColor="@color/white"/>
+
+
+
+        <Button
+            android:id="@+id/takephoto_takephoto"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:background="@drawable/lz_button_on"
+            android:layout_margin="@dimen/px_20"
+            android:text="使用拍照"
+            android:textSize="@dimen/text_size_36"
+            android:textColor="@color/white"/>
+
+
+
+        <Button
+            android:id="@+id/takephoto_photocut"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:background="@drawable/lz_button_on"
+            android:layout_margin="@dimen/px_20"
+            android:text="使用裁剪"
+            android:textSize="@dimen/text_size_36"
+            android:textColor="@color/white"/>
+
+
+
+        <Button
+            android:id="@+id/takephoto_photoedit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:background="@drawable/lz_button_on"
+            android:layout_margin="@dimen/px_20"
+            android:text="使用图片编辑"
+            android:visibility="gone"
+            android:textSize="@dimen/text_size_36"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/takephoto_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/chenglei/android代码/xiaobaiyangchong/WXLikeVideoRecorderLib/build/intermediates/res/merged/release/drawable-hdpi-v4/ms_video_focus_icon.png",
+        "source": "/Users/chenglei/android代码/xiaobaiyangchong/WXLikeVideoRecorderLib/src/main/res/drawable-hdpi/ms_video_focus_icon.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/xiaobaiyangchong/WXLikeVideoRecorderLib/build/intermediates/res/merged/release/drawable-hdpi-v4/ms_smallvideo_icon.png",
+        "source": "/Users/chenglei/android代码/xiaobaiyangchong/WXLikeVideoRecorderLib/src/main/res/drawable-hdpi/ms_smallvideo_icon.png"
+    }
+]

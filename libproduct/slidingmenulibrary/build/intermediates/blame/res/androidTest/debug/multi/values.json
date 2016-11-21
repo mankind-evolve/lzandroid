@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/Users/chenglei/android代码/xiaobaiyangchong/libproduct/slidingmenulibrary/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 903,
+                    "endColumn": 42,
+                    "endOffset": 941
+                },
+                "from": {
+                    "file": "/Users/chenglei/android代码/xiaobaiyangchong/libproduct/slidingmenulibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endColumn": 42,
+                        "endOffset": 941
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/chenglei/android代码/xiaobaiyangchong/slidingmenulibrary/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 903,
+                    "endColumn": 42,
+                    "endOffset": 941
+                },
+                "from": {
+                    "file": "/Users/chenglei/android代码/xiaobaiyangchong/slidingmenulibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endColumn": 42,
+                        "endOffset": 941
+                    }
+                }
+            }
+        ]
+    }
+]

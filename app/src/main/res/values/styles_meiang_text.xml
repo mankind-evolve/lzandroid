@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--button 白色字体-->
+    <style name="m_text_buttonwhite" parent="">
+        <item name="android:textColor">@color/m_white</item>
+        <item name="android:textSize">@dimen/text_size_36</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--输入框提示字体-->
+    <style name="m_text_edithint" parent="">
+        <item name="android:textColorHint">@color/m_text_hint</item>
+        <item name="android:textColor">@color/m_text_hint</item>
+        <item name="android:textSize">@dimen/text_size_32</item>
+    </style>
+
+    <!--正文字体-->
+    <style name="m_text_maintext" parent="">
+        <item name="android:textColor">@color/m_text_main</item>
+        <item name="android:textSize">@dimen/text_size_32</item>
+    </style>
+
+    <!--顶部独自标题文字的样式-->
+    <style name="m_text_toptitle_only">
+        <item name="android:textSize">@dimen/text_size_36</item>
+        <item name="android:textColor">@color/m_text_toptitle</item>
+    </style>
+
+    <!--顶部多个标题文字的样式  未选中-->
+    <style name="m_text_toptitle_more_notselected">
+        <item name="android:textSize">@dimen/text_size_32</item>
+        <item name="android:textColor">@color/m_text_toptitle</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!--顶部多个标题文字的样式  选中-->
+    <style name="m_text_toptitle_more_selected">
+        <item name="android:textSize">@dimen/text_size_32</item>
+        <item name="android:textColor">@color/m_main_color</item>
+        <item name="android:background">@drawable/lz_border_buttonselect</item>
+    </style>
+
+
+</resources>

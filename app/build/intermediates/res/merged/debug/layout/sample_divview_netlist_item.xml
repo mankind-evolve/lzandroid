@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@drawable/lz_border_bottom_bfbfbf"
+              android:layout_width="match_parent"
+              android:gravity="center_vertical"
+              android:layout_height="@dimen/px_200">
+
+
+
+    <ImageView
+        android:id="@+id/divview_netlist_item_headimg"
+        android:layout_width="@dimen/px_120"
+        android:layout_height="@dimen/px_120"
+        android:layout_margin="@dimen/px_40"
+        android:src="@drawable/nologin"/>
+
+    <TextView
+        android:id="@+id/divview_netlist_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="昵称"
+        android:textColor="@color/textcolor999"/>
+
+
+
+
+</LinearLayout>

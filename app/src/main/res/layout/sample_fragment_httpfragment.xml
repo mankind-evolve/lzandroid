@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_20"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/xutils_http_down_ser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/px_10"
+                android:text="ser下载文件(一个)"
+                android:background="@drawable/lz_button_on"
+                android:gravity="center"
+                android:textColor="@color/blue_f1faf8"/>
+            <TextView
+                android:id="@+id/xutils_http_down_sers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/px_10"
+                android:text="ser下载文件(多个)"
+                android:background="@drawable/lz_button_on"
+                android:gravity="center"
+                android:textColor="@color/blue_f1faf8"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/xutils_http_down_http"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/px_10"
+                android:text="http下载文件"
+                android:background="@drawable/lz_button_on"
+                android:gravity="center"
+                android:textColor="@color/blue_f1faf8"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/xutils_http_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/px_10"
+                android:text="http上传文件"
+                android:background="@drawable/lz_button_on"
+                android:gravity="center"
+                android:textColor="@color/blue_f1faf8"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_20"
+        android:layout_marginBottom="@dimen/px_20">
+        <TextView
+            android:id="@+id/xutils_http_get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/px_10"
+            android:text="发GET"
+            android:background="@drawable/lz_button_on"
+            android:gravity="center"
+            android:textColor="@color/blue_f1faf8"/>
+        <TextView
+            android:id="@+id/xutils_http_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/px_10"
+            android:text="发POST"
+            android:background="@drawable/lz_button_on"
+            android:gravity="center"
+            android:textColor="@color/blue_f1faf8"/>
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/xutils_http_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:singleLine="false"/>
+    </ScrollView>
+
+</LinearLayout>

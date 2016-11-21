@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/lz_go_up.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/lz_go_up.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/splash_in.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/splash_in.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/sanjiao_rotate_anim.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/sanjiao_rotate_anim.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/lz_alpha_in.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/lz_alpha_in.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/lz_activity_anim_in_from_right.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/lz_activity_anim_in_from_right.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/lz_activity_anim_out_from_right.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/lz_activity_anim_out_from_right.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/push_bottom_in.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/push_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/gf_flip_horizontal_in.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/anim/gf_flip_horizontal_in.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/lz_go_down.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/lz_go_down.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/progressbar_loading.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/progressbar_loading.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/slide_out_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.jzxiang.pickerview/TimePickerDialog/1.0.1/res/anim/slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/lz_alpha_out.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/lz_alpha_out.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/custom_dialog_anim_dismiss.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/custom_dialog_anim_dismiss.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/progressbar.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/progressbar.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/indicator_animation.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/res/anim/indicator_animation.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/gf_flip_horizontal_out.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/anim/gf_flip_horizontal_out.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/focus_animation.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/res/anim/focus_animation.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/custom_dialog_anim_show.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/custom_dialog_anim_show.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/lz_activity_anim_in_from_left.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/lz_activity_anim_in_from_left.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/push_bottom_out.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/push_bottom_out.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/lz_activity_anim_out_from_left.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/lz_activity_anim_out_from_left.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/slide_in_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.jzxiang.pickerview/TimePickerDialog/1.0.1/res/anim/slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/anim/sanjiao_back_anim.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/anim/sanjiao_back_anim.xml"
+    }
+]

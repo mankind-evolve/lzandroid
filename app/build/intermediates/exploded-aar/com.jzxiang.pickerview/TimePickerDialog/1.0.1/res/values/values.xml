@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="timepicker_dialog_bg">#80000000</color>
+    <color name="timepicker_line">#e8e8e8</color>
+    <color name="timepicker_toolbar_bg">#e60012</color>
+    <color name="timetimepicker_default_text_color">#999999</color>
+    <dimen name="picker_default_text_size">12sp</dimen>
+    <dimen name="picker_dialog_height">190dp</dimen>
+    <dimen name="picker_height">230dp</dimen>
+    <dimen name="picker_line_mar">15dp</dimen>
+    <dimen name="picker_line_width">1dp</dimen>
+    <dimen name="picker_toolbar_height">40dp</dimen>
+    <dimen name="textview_default_padding">5dp</dimen>
+    <string name="picker_cancel">取消</string>
+    <string name="picker_day">日</string>
+    <string name="picker_hour">时</string>
+    <string name="picker_minute">分</string>
+    <string name="picker_month">月</string>
+    <string name="picker_sure">确定</string>
+    <string name="picker_title">选择时间</string>
+    <string name="picker_year">年</string>
+    <style mce_bogus="1" name="AnimationPicker" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+    <style name="Dialog.NoTitle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationPicker</item>
+    </style>
+</resources>

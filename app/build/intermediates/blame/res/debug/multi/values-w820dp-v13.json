@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/chenglei/android代码/lzandroid/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 281,
+                        "endColumn": 57,
+                        "endOffset": 334
+                    }
+                }
+            }
+        ]
+    }
+]

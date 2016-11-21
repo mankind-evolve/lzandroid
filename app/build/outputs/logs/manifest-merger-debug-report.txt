@@ -1,0 +1,837 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:2:1-589:12
+	package
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:2:11-37
+		INJECTED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:5:11-36
+		INJECTED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:4:11-34
+		INJECTED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:3:11-69
+permission#android.permission.FLASHLIGHT
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:9:5-12:43
+MERGED from [lzandroid:alib_WXLikeVideoRecorderLib:unspecified] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/AndroidManifest.xml:17:5-20:44
+	android:protectionLevel
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:12:9-41
+	android:permissionGroup
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:11:9-77
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:10:9-53
+permission#android.permission.READ_CONTACTS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:15:5-18:43
+	android:protectionLevel
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:18:9-41
+	android:permissionGroup
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:17:9-77
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:16:9-56
+permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:21:5-24:43
+	android:protectionLevel
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:24:9-41
+	android:permissionGroup
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:23:9-77
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:22:9-57
+permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:28:5-31:43
+	android:protectionLevel
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:31:9-41
+	android:permissionGroup
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:30:9-77
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:29:9-63
+uses-feature#android.hardware.camera
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:37:5-39:35
+MERGED from [lzandroid:alib_WXLikeVideoRecorderLib:unspecified] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/AndroidManifest.xml:22:5-60
+	android:required
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:39:9-33
+		MERGED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:39:9-33
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:38:9-47
+uses-feature#android.hardware.camera.front
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:40:5-42:35
+MERGED from [lzandroid:alib_WXLikeVideoRecorderLib:unspecified] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:42:9-33
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:41:9-53
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:46:5-49:43
+	android:protectionLevel
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:49:9-41
+	android:permissionGroup
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:48:9-77
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:47:9-56
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:50:5-52:46
+	android:protectionLevel
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:52:9-44
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:51:9-57
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:57:5-78
+MERGED from [cn.finalteam:toolsfinal:1.1.5] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/toolsfinal/1.1.5/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:57:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:58:5-75
+MERGED from [cn.finalteam:toolsfinal:1.1.5] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/toolsfinal/1.1.5/AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:58:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:59:5-74
+MERGED from [cn.finalteam:toolsfinal:1.1.5] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/toolsfinal/1.1.5/AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:59:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:60:5-80
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:14:5-81
+MERGED from [cn.finalteam:toolsfinal:1.1.5] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/toolsfinal/1.1.5/AndroidManifest.xml:14:5-81
+MERGED from [lzandroid:alib_WXLikeVideoRecorderLib:unspecified] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/AndroidManifest.xml:15:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:60:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:61:5-66
+MERGED from [lzandroid:alib_WXLikeVideoRecorderLib:unspecified] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:61:22-64
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:62:5-67
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:62:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:63:5-68
+MERGED from [cn.finalteam:toolsfinal:1.1.5] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/toolsfinal/1.1.5/AndroidManifest.xml:26:5-69
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:63:22-66
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:64:5-78
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:64:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:65:5-80
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:65:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:66:5-67
+MERGED from [cn.finalteam:toolsfinal:1.1.5] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/toolsfinal/1.1.5/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:66:22-65
+uses-permission#android.permission.SET_DEBUG_APP
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:67:5-71
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:67:22-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:68:5-77
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:68:22-75
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:69:5-70
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:69:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:70:5-73
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:70:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:71:5-73
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:71:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:77:5-79
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:16:5-80
+MERGED from [cn.finalteam:toolsfinal:1.1.5] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/toolsfinal/1.1.5/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:77:22-77
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:83:5-75
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:83:22-73
+uses-permission#android.permission.CAMERA
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:90:5-64
+MERGED from [lzandroid:alib_WXLikeVideoRecorderLib:unspecified] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:90:22-62
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:92:5-83
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:12:5-84
+MERGED from [cn.finalteam:toolsfinal:1.1.5] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/toolsfinal/1.1.5/AndroidManifest.xml:12:5-84
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:92:22-81
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:103:5-105:35
+	android:required
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:105:9-33
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:104:9-52
+uses-feature#android.software.leanback
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:106:5-108:34
+	android:required
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:108:9-32
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:107:9-49
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:119:5-70
+MERGED from [lzandroid:alib_WXLikeVideoRecorderLib:unspecified] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:119:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:120:5-67
+MERGED from [lzandroid:alib_WXLikeVideoRecorderLib:unspecified] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:120:22-65
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:126:5-84
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:126:22-82
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:132:5-72
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:132:22-70
+permission#com.lazy.android.permission.JPUSH_MESSAGE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:158:5-160:46
+	android:protectionLevel
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:160:9-44
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:159:9-65
+uses-permission#com.lazy.android.permission.JPUSH_MESSAGE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:163:5-80
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:163:22-78
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:164:5-78
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:164:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:170:5-65
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:170:22-63
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:180:5-88
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:180:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:181:5-78
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:181:22-76
+application
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:184:5-586:19
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [org.xutils:xutils:3.3.8] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/org.xutils/xutils/3.3.8/AndroidManifest.xml:12:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/AndroidManifest.xml:9:5-20
+MERGED from [com.jzxiang.pickerview:TimePickerDialog:1.0.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.jzxiang.pickerview/TimePickerDialog/1.0.1/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:18:5-34:19
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:27:5-49:19
+	android:label
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:188:9-41
+	android:supportsRtl
+		ADDED from [com.jzxiang.pickerview:TimePickerDialog:1.0.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.jzxiang.pickerview/TimePickerDialog/1.0.1/AndroidManifest.xml:13:9-35
+	android:allowBackup
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:186:9-35
+	android:icon
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:187:9-38
+	android:largeHeap
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:20:9-33
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:189:9-62
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:185:9-73
+meta-data#UMENG_APPKEY
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:194:9-196:66
+	android:value
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:196:13-53
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:195:13-40
+meta-data#UMENG_CHANNEL
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:197:9-199:34
+	android:value
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:199:13-32
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:198:13-41
+activity#com.lazy.android.z_sample.SampleIndexActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:202:9-207:20
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:202:19-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:203:13-206:29
+action#android.intent.action.MAIN
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:204:17-68
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:204:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:205:17-76
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:205:27-74
+activity#com.lazy.android.z_sample.xutils.activity.SampleXutilsIndexActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:209:9-87
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:209:19-85
+activity#com.lazy.android.z_sample.umeng.Activity.SampleUmengIndexActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:211:9-85
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:211:19-83
+activity#com.lazy.android.z_sample.jpush.JpushIndexActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:213:9-70
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:213:19-68
+activity#com.lazy.android.z_sample.webview.LZHtmlActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:215:9-68
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:215:19-66
+activity#com.lazy.android.z_sample.divview.DivviewIndexActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:220:9-74
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:220:19-72
+activity#com.lazy.android.z_sample.divview.netlist.NetListActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:222:9-77
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:222:19-75
+activity#com.lazy.android.z_sample.divview.netlistWithSwipeMenuListView.NetListSwipeActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:224:9-103
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:224:19-101
+activity#com.lazy.android.z_sample.divview.slidingmenu.SlidingmenuIndexActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:226:9-90
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:226:19-88
+activity#com.lazy.android.z_sample.divview.circleimageview.CircleImageViewActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:228:9-93
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:228:19-91
+activity#com.lazy.android.z_sample.demo.ADemoIndexActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:230:9-69
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:230:19-67
+activity#com.lazy.android.z_sample.demo.DemoSurfaceViewActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:232:9-74
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:232:19-72
+activity#com.lazy.android.z_sample.scan.SampleScanIndexActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:236:9-74
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:236:19-72
+activity#com.lazy.android.z_sample.baidumap.SampleBaidumapIndexActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:239:9-82
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:239:19-80
+activity#com.lazy.android.z_sample.baidumap.BaidumapInitActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:240:9-75
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:240:19-73
+activity#com.lazy.android.z_sample.baidumap.BaidumapSearchActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:241:9-77
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:241:19-75
+activity#com.lazy.android.z_sample.baidumap.BaidumapRoadSearchActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:242:9-81
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:242:19-79
+activity#com.lazy.android.z_sample.baidumap.BaidumapLocationActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:243:9-79
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:243:19-77
+service#com.baidu.location.f
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:245:9-249:19
+	android:enabled
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:247:13-35
+	android:process
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:248:13-38
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:246:13-48
+activity#com.lazy.android.basefunc.LZScan.ScanCreateActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:253:9-71
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:253:19-69
+activity#com.lazy.android.basefunc.LZScan.ScanCommonActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:256:9-71
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:256:19-69
+activity#com.lazy.android.basefunc.LZRecord.PlayVideoActiviy
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:273:9-275:51
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:275:13-49
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:274:13-63
+activity#com.lazy.android.basefunc.LZRecord.RecordMainActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:276:9-280:20
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:278:13-49
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:277:13-65
+activity#com.lazy.android.basefunc.LZRecord.NewRecordVideoActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:282:9-286:20
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:284:13-49
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:283:13-69
+activity#com.lazy.android.z_sample.divview.activityButtonup.ActivityButtonUpActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:289:9-292:64
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:291:13-49
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:292:13-62
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:290:13-87
+activity#com.lazy.android.z_sample.takePhoto.SampleTakePhotoActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:294:9-296:51
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:296:13-49
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:295:13-71
+activity#com.lazy.android.wxapi.WXEntryActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:301:9-306:74
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:305:13-49
+	android:exported
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:304:13-36
+	android:configChanges
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:303:13-74
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:306:13-72
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:302:13-66
+activity#com.tencent.tauth.AuthActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:309:9-319:20
+	android:launchMode
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:311:13-44
+	android:noHistory
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:312:13-37
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:310:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:313:13-318:29
+action#android.intent.action.VIEW
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:314:17-68
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:314:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:315:17-75
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:315:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:316:17-77
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:316:27-75
+data
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:317:17-59
+	android:scheme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:317:23-57
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:320:9-323:74
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:322:13-49
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:323:13-72
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:321:13-69
+activity#com.lazy.android.umengCallback.WBShareActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:327:9-335:20
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:330:13-49
+	android:configChanges
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:329:13-63
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:328:13-58
+intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:331:13-334:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:332:17-91
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:332:25-89
+activity#com.sina.weibo.sdk.component.WeiboSdkBrowser
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:336:9-341:20
+	android:exported
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:339:13-37
+	android:windowSoftInputMode
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:340:13-55
+	android:configChanges
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:338:13-63
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:337:13-72
+service#com.sina.weibo.sdk.net.DownloadService
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:343:9-346:19
+	android:exported
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:345:13-37
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:344:13-66
+activity#com.lazy.android.baseui.crumbs.CrumbsTakephotoActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:369:9-372:64
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:371:13-49
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:372:13-62
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:370:13-66
+activity#com.lazy.android.baseui.crumbs.CrumbsUmengSharedActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:375:9-378:64
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:377:13-49
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:378:13-62
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:376:13-68
+activity#com.lazy.android.z_sample.divview.HorizontalScrollView.Activity_hscroll
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:381:9-384:20
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:383:13-49
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:382:13-83
+activity#com.lazy.android.baseui.crumbs.CrumbsCityPick.CrumbsCityPickActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:387:9-391:20
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:389:13-49
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:390:13-62
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:388:13-80
+activity#com.lazy.android.z_sample.divview.citylist.lzcitylist_IndexActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:394:9-87
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:394:19-85
+activity#com.lazy.android.baseui.crumbs.CrumbsPickerListviewActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:397:9-400:55
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:399:13-49
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:400:13-53
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:398:13-71
+activity#com.lazy.android.baseui.crumbs.CrumbsPickerListviewsActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:403:9-406:55
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:405:13-49
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:406:13-53
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:404:13-72
+activity#com.lazy.android.baseui.crumbs.CrumbsPickerDiyActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:410:9-413:55
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:412:13-49
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:413:13-53
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:411:13-66
+activity#com.lazy.android.baseui.crumbs.CrumbsPickerDateActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:417:9-420:58
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:419:13-49
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:420:13-56
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:418:13-67
+activity#com.lazy.android.baseui.crumbs.CrumbsPickerTimeActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:423:9-425:51
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:425:13-49
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:424:13-67
+activity#com.lazy.android.wxapi.WXPayEntryActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:430:9-434:58
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:433:13-49
+	android:exported
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:432:13-36
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:434:13-56
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:431:13-53
+activity#com.lazy.android.basefunc.LZPay.AlipayActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:438:9-444:20
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:440:13-49
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:441:13-56
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:439:13-58
+activity#com.lazy.android.basefunc.LZPay.WxpayActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:447:9-451:20
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:449:13-49
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:450:13-56
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:448:13-57
+activity#com.lazy.android.z_sample.divview.timelist.timelistActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:455:9-79
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:455:19-77
+activity#com.lazy.android.z_sample.divview.indexdemo.indexdemoActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:458:9-81
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:458:19-79
+activity#com.lazy.android.z_sample.divview.addressbook.addressbookActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:461:9-85
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:461:19-83
+activity#com.lazy.android.z_sample.divview.orderlist.orderlistActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:464:9-81
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:464:19-79
+service#cn.jpush.android.service.PushService
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:476:9-486:19
+	android:enabled
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:478:13-35
+	android:exported
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:479:13-37
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:477:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:480:13-485:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:481:17-74
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:481:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:482:17-72
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:482:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:483:17-77
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:483:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:484:17-75
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:484:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:490:9-498:19
+	android:enabled
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:492:13-35
+	android:exported
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:493:13-36
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:491:13-66
+intent-filter#cn.jpush.android.intent.DaemonService+com.lazy.android
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:494:13-497:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:495:17-79
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:495:25-77
+category#com.lazy.android
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:496:17-60
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:496:27-58
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:501:9-519:20
+	android:enabled
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:503:13-35
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:502:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.lazy.android
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:504:13-507:29
+	android:priority
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:504:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:505:17-93
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:505:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:508:13-511:29
+action#android.intent.action.USER_PRESENT
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:509:17-76
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:509:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:510:17-78
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:510:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:513:13-518:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:514:17-77
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:514:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:515:17-79
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:515:25-77
+activity#cn.jpush.android.ui.PushActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:521:9-531:20
+	android:exported
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:524:13-37
+	android:configChanges
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:523:13-63
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:522:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.lazy.android
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:525:13-530:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:526:17-74
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:526:25-72
+service#cn.jpush.android.service.DownloadService
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:533:9-537:19
+	android:enabled
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:535:13-35
+	android:exported
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:536:13-37
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:534:13-68
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:539:9-74
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:539:19-72
+receiver#com.lazy.android.basefunc.LZPush.JpushReceiver
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:542:9-560:20
+	android:enabled
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:544:13-35
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:543:13-58
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+com.lazy.android
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:545:13-559:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:547:17-78
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:547:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:549:17-82
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:549:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:551:17-87
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:551:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:553:17-85
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:553:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:555:17-90
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:555:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:557:17-76
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:557:25-74
+meta-data#JPUSH_CHANNEL
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:568:9-570:48
+	android:value
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:570:13-46
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:569:13-41
+meta-data#JPUSH_APPKEY
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:572:9-574:55
+	android:value
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:574:13-53
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:573:13-40
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:580:9-582:63
+	android:value
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:582:13-61
+	android:name
+		ADDED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml:581:13-52
+uses-sdk
+INJECTED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [org.xutils:xutils:3.3.8] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/org.xutils/xutils/3.3.8/AndroidManifest.xml:8:5-10:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jzxiang.pickerview:TimePickerDialog:1.0.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.jzxiang.pickerview/TimePickerDialog/1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [cn.finalteam:toolsfinal:1.1.5] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/toolsfinal/1.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [lzandroid:alib_slidingmenulibrary:unspecified] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_slidingmenulibrary/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [lzandroid:alib_WXLikeVideoRecorderLib:unspecified] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/lzandroid/alib_WXLikeVideoRecorderLib/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.yqritc:android-scalablevideoview:1.0.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.yqritc/android-scalablevideoview/1.0.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/AndroidManifest.xml:2:5-72
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.baoyz.swipemenulistview:library:1.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.baoyz.swipemenulistview/library/1.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenglei/android代码/lzandroid/app/src/main/AndroidManifest.xml
+activity#cn.finalteam.galleryfinal.PhotoSelectActivity
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:22:9-25:52
+	android:screenOrientation
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:25:13-49
+	android:configChanges
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:24:13-83
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:23:13-73
+activity#cn.finalteam.galleryfinal.PhotoEditActivity
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:26:9-29:52
+	android:screenOrientation
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:29:13-49
+	android:configChanges
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:28:13-83
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:27:13-71
+activity#cn.finalteam.galleryfinal.PhotoPreviewActivity
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:30:9-33:52
+	android:screenOrientation
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:33:13-49
+	android:configChanges
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:32:13-83
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:31:13-74
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:28:9-31:45
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:30:13-36
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:31:13-42
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:29:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:32:9-34:39
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:33:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:36:9-48:20
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:38:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:40:13-73
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:39:13-56
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:42:13-53
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:41:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/AndroidManifest.xml:37:13-80

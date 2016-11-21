@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/lz_common_head"/>
+
+
+    <LinearLayout android:id="@+id/LinearLayout01"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lz_button_on"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/px_10"
+            android:text="简单绘画"></Button>
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lz_button_on"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/px_10"
+            android:text="定时器绘画"></Button>
+    </LinearLayout>
+
+    <SurfaceView android:id="@+id/SurfaceView01"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"></SurfaceView>
+
+
+</LinearLayout>

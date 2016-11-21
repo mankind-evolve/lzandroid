@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:gravity="center"
+                android:background="@android:color/white" >
+
+
+    <ImageView
+        android:id="@+id/lz_hscrollitem_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/logo"/>
+
+</LinearLayout>

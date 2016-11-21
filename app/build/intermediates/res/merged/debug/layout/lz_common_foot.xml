@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lazy.android.baseui.common.CommonFoot
+    android:id="@+id/lz_common_foot"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/lz_border_commonfoot_bg"
+    android:layout_height="@dimen/commonfoot_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/foot_menu_item1_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/foot_menu_item1_img"
+            android:layout_width="@dimen/px_40"
+            android:layout_height="@dimen/px_40"
+            android:src="@drawable/lz_ico_copy_on"/>
+        <TextView
+            android:id="@+id/foot_menu_item1_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_5"
+            android:text="item1"
+            android:textColor="@color/m_text_menucolor"
+            android:textSize="@dimen/text_size_24"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/foot_menu_item2_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/foot_menu_item2_img"
+            android:layout_width="@dimen/px_40"
+            android:layout_height="@dimen/px_40"
+            android:src="@drawable/lz_ico_copy_off"/>
+        <TextView
+            android:id="@+id/foot_menu_item2_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_5"
+            android:text="item2"
+            android:textColor="@color/m_text_menucolor"
+            android:textSize="@dimen/text_size_24"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/foot_menu_item3_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/foot_menu_item3_img"
+            android:layout_width="@dimen/px_40"
+            android:layout_height="@dimen/px_40"
+            android:src="@drawable/lz_ico_copy_off"/>
+        <TextView
+            android:id="@+id/foot_menu_item3_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_5"
+            android:text="item3"
+            android:textColor="@color/m_text_menucolor"
+            android:textSize="@dimen/text_size_24"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/foot_menu_item4_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/foot_menu_item4_img"
+            android:layout_width="@dimen/px_40"
+            android:layout_height="@dimen/px_40"
+            android:src="@drawable/lz_ico_copy_off"/>
+        <TextView
+            android:id="@+id/foot_menu_item4_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_5"
+            android:text="item4"
+            android:textColor="@color/m_text_menucolor"
+            android:textSize="@dimen/text_size_24"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/foot_menu_item5_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/foot_menu_item5_img"
+            android:layout_width="@dimen/px_40"
+            android:layout_height="@dimen/px_40"
+            android:src="@drawable/lz_ico_copy_off"/>
+        <TextView
+            android:id="@+id/foot_menu_item5_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_5"
+            android:text="item5"
+            android:textColor="@color/m_text_menucolor"
+            android:textSize="@dimen/text_size_24"/>
+    </LinearLayout>
+
+
+
+
+
+</com.lazy.android.baseui.common.CommonFoot>

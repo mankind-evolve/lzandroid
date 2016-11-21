@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/shouquan_bg_loading_dialog_shape.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/shouquan_bg_loading_dialog_shape.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lzcitylsit_text_selector.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lzcitylsit_text_selector.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lzcitylsit_item_selector.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lzcitylsit_item_selector.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lzchat_msg_state_failed_resend.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lzchat_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_simpledialog_bg_bak.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_simpledialog_bg_bak.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_commonfoot_bg.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_commonfoot_bg.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_button_halftop.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_button_halftop.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_button_halfbottom.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_button_halfbottom.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lzchatto_bg.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lzchatto_bg.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_bottom_bfbfbf.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_bottom_bfbfbf.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_button_halfbottom_gray.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_button_halfbottom_gray.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/overlay_bg.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/overlay_bg.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_white_top.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_white_top.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/shouquan_loading_dialog_progressbar.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/shouquan_loading_dialog_progressbar.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lzrecorder_flashlight.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lzrecorder_flashlight.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/timepicker_divider_line.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.jzxiang.pickerview/TimePickerDialog/1.0.1/res/drawable/timepicker_divider_line.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/bg_gf_crop_texture.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable/bg_gf_crop_texture.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/shouquan_qrcode_s_flashgun.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/shouquan_qrcode_s_flashgun.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_dots.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_dots.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/wheel_val.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.jzxiang.pickerview/TimePickerDialog/1.0.1/res/drawable/wheel_val.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_crubs_citypicker_wheel_bg.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_crubs_citypicker_wheel_bg.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_white_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_white_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_line_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_line_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_main_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_main_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_bottom_top.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_bottom_top.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_top_ff0000.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_top_ff0000.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/search_box_bg.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/search_box_bg.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/__leak_canary_toast_background.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/drawable/__leak_canary_toast_background.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lzchatfrom_bg.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lzchatfrom_bg.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_custom_alert_dialog_bg_bak.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_custom_alert_dialog_bg_bak.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/background_tab.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/res/drawable/background_tab.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_button.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_button.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/timepicker_sel_text_item.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.jzxiang.pickerview/TimePickerDialog/1.0.1/res/drawable/timepicker_sel_text_item.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/wheel_bg.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.jzxiang.pickerview/TimePickerDialog/1.0.1/res/drawable/wheel_bg.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lzrecorder_frontcamera.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lzrecorder_frontcamera.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lzscan_rescan_shape_button.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lzscan_rescan_shape_button.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_top.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_top.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_buttonselect.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_buttonselect.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_crubs_citypicker_wheel_val.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_crubs_citypicker_wheel_val.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_bottom_none.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_bottom_none.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_round.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_round.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lzrecorder_success_progress.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lzrecorder_success_progress.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/lz_border_bottom_around.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/lz_border_bottom_around.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/shouquan_qrcode_g_gallery.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/shouquan_qrcode_g_gallery.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzandroid/app/build/intermediates/res/merged/debug/drawable/shouquan_qrcode_ic_back.xml",
+        "source": "/Users/chenglei/android代码/lzandroid/app/src/main/res/drawable/shouquan_qrcode_ic_back.xml"
+    }
+]

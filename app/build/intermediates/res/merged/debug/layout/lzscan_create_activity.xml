@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_centerHorizontal="true"
+              android:orientation="vertical"
+    >
+
+    <include layout="@layout/lz_common_head"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/px_40"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_code_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px_20"
+            android:layout_marginRight="@dimen/px_20"
+            android:background="@drawable/lz_border_bottom"
+            android:gravity="center"
+            android:hint="输入要生成码的内容"
+            android:padding="10dp"
+            android:textColor="@color/textcolor666"
+            android:textSize="@dimen/text_size_38"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_60"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn_create_code"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px_20"
+                android:layout_marginRight="@dimen/px_20"
+                android:layout_weight="1"
+                android:background="@drawable/lz_button_on"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="生成码"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_28"
+                />
+
+            <Button
+                android:id="@+id/btn_create_code_and_img"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px_20"
+                android:layout_marginRight="@dimen/px_20"
+                android:layout_weight="1"
+                android:background="@drawable/lz_button_on"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="加个头像"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_28"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_2_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_40"
+            android:background="@android:color/holo_red_light"
+            />
+
+        <ImageView
+            android:id="@+id/iv_bar_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_40"
+            />
+    </LinearLayout>
+</LinearLayout>

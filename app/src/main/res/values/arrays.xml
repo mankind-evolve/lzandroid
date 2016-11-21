@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 性别 -->
+    <string-array name="gender_options">
+        <item>男</item>
+        <item>女</item>
+        <item>保密</item>
+    </string-array>
+    <!-- 星座 -->
+    <array name="astros">
+        <item>魔羯座</item>
+        <item>水瓶座</item>
+        <item>双鱼座</item>
+        <item>牡羊座</item>
+        <item>金牛座</item>
+        <item>双子座</item>
+        <item>巨蟹座</item>
+        <item>狮子座</item>
+        <item>处女座</item>
+        <item>天秤座</item>
+        <item>天蝎座</item>
+        <item>射手座</item>
+    </array>
+</resources>

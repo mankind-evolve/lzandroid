@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="60dp"
+    android:layout_marginRight="60dp"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_loadDialog_title"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textSize="@dimen/text_size_18"
+        android:visibility="gone" />
+
+    <ProgressBar style="@style/custom_progressBar" />
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/lz_toast_bg_bak"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ProgressBar style="@style/custom_progressBar" />
+
+        <TextView
+            android:id="@+id/txt_loadDialog_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18" />
+    </LinearLayout>
+
+</LinearLayout>

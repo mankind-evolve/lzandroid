@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:keepScreenOn="true"
+    >
+
+    <sz.itguy.wxlikevideo.views.CameraPreviewView
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:id="@+id/recoder_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/camera_preview"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/movie_progressBar"
+            android:layout_width="1px"
+            android:layout_height="@dimen/px_5"
+            android:layout_below="@id/camera_preview"
+            android:background="@color/green"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/recoder_progress"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/button_start"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/px_220"
+            android:layout_height="@dimen/px_220"
+            android:src="@drawable/lzrecord_clickbutton"/>
+
+        <!--<sz.itguy.wxlikevideo.views.CircleBackgroundTextView-->
+            <!--android:id="@+id/button_start"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:onClick="onClick"-->
+            <!--android:text="按住拍"-->
+            <!--android:textColor="@color/green"-->
+            />
+        <!--<ImageView-->
+        <!--android:id="@+id/button_start"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/lzrecord_clickbutton"-->
+        <!--/>-->
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/filePathTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

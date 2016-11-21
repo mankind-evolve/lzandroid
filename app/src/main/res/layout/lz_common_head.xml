@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lazy.android.baseui.common.CommonHead
+    android:id="@+id/common_head"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/lz_border_main_bottom"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/px_30"
+    android:paddingRight="@dimen/px_30"
+    android:orientation="horizontal">
+
+        <!--左侧布局-->
+        <LinearLayout
+            android:id="@+id/common_headleft"
+            android:layout_width="@dimen/px_80"
+            android:layout_height="@dimen/topbar_height"
+            android:gravity="center_vertical"
+            android:layout_gravity="left"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/common_headleft_leftimage_out"
+                android:layout_width="@dimen/topbar_height"
+                android:layout_height="@dimen/topbar_height"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:id="@+id/common_headleft_leftimage"
+                    android:layout_width="@dimen/px_22"
+                    android:layout_height="@dimen/px_40"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/common_headleft_middletext"
+                android:textSize="@dimen/text_size_30"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/common_headleft_rightimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/common_headleft_headimg"
+                android:layout_width="@dimen/px_65"
+                android:layout_height="@dimen/px_65"
+                android:src="@drawable/nologin"
+                android:visibility="gone"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FFFFFFFF"/>
+
+
+
+        </LinearLayout>
+
+
+        <!--中间布局-->
+        <LinearLayout
+            android:id="@+id/common_headmiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/topbar_height"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/common_headmiddle_leftimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/common_headmiddle_middletext"
+                android:textSize="@dimen/text_size_36"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/common_headmiddle_rightimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/common_headmiddle_searchtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lz_head_searchbg"
+                android:hint="搜索"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_26"
+                android:drawablePadding="@dimen/px_10"
+                android:editable="false"
+                android:drawableLeft="@drawable/lz_headsearch_ico"
+                android:paddingLeft="@dimen/px_50"
+                android:layout_marginLeft="@dimen/px_20"
+                android:layout_marginRight="@dimen/px_20"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+        <!--右侧布局-->
+        <LinearLayout
+            android:id="@+id/common_headright"
+            android:layout_width="@dimen/px_90"
+            android:layout_height="@dimen/topbar_height"
+            android:gravity="center_vertical"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/common_headright_leftimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/common_headright_middletext"
+                android:textSize="@dimen/text_size_30"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/common_headright_rightimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+</com.lazy.android.baseui.common.CommonHead>

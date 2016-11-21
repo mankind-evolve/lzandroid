@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/white"
+              android:layout_height="match_parent">
+    <include layout="@layout/lz_common_head"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_20"
+        android:background="@drawable/lz_border_bottom_bfbfbf"
+        android:layout_margin="@dimen/px_20"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="umeng分享"
+            android:layout_margin="@dimen/px_20"
+            android:textSize="@dimen/text_size_36"
+            android:textColor="@color/textcolor999"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/umeng_loginwx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="微信登录"/>
+
+        <TextView
+            android:id="@+id/umeng_loginqq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="QQ登录"/>
+
+        <TextView
+            android:id="@+id/umeng_loginweibo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="微博登录"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/umeng_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="调起友盟分享的底部弹出页面"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_20"
+        android:background="@drawable/lz_border_bottom_bfbfbf"
+        android:layout_margin="@dimen/px_20"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="umeng统计"
+            android:layout_margin="@dimen/px_20"
+            android:textSize="@dimen/text_size_36"
+            android:textColor="@color/textcolor999"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/umeng_stat_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="账号登录"/>
+
+        <TextView
+            android:id="@+id/umeng_stat_loginout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="账号登出"/>
+
+        <TextView
+            android:id="@+id/umeng_stat_diy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="埋点统计"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/umeng_stat_crash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/lz_button_on"
+            android:text="crash统计"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

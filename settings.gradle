@@ -1,0 +1,4 @@
+include ':app'
+include ':alib_slidingmenulibrary'
+include ':alib_WXLikeVideoRecorderLib'
+

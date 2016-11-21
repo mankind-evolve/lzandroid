@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/Users/chenglei/android代码/xiaobaiyangchong/WXLikeVideoRecorderLib/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 485,
+                    "endColumn": 53,
+                    "endOffset": 534
+                },
+                "from": {
+                    "file": "/Users/chenglei/android代码/xiaobaiyangchong/WXLikeVideoRecorderLib/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 53,
+                        "endOffset": 104
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/chenglei/android代码/xiaobaiyangchong/libproduct/WXLikeVideoRecorderLib/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 485,
+                    "endColumn": 53,
+                    "endOffset": 534
+                },
+                "from": {
+                    "file": "/Users/chenglei/android代码/xiaobaiyangchong/libproduct/WXLikeVideoRecorderLib/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 53,
+                        "endOffset": 104
+                    }
+                }
+            }
+        ]
+    }
+]
